@@ -31,7 +31,7 @@
 	\vspace{6mm}
 	%ESTE CENTER ES EXCLUSIVO PARA EL TITULO DEL PAPER, AUTOR Y UNIVER.
 	\begin{center}
-		{\Large \textbf{Medición de la altura del campanil}}\\
+		{\Large \textbf{Medición de la altura del Campanil}}\\
 		\vspace{2mm}
 		{\large Gabriel Hernández Bello$^{1}$}\\
 		\vspace{6.5mm}
@@ -74,9 +74,11 @@
 			\caption{Diagrama de la medición de la altura del campanil. Se respresenta $D^{\prime} = L \tan(\alpha)$,  $d$ la altura desde la base hasta el punto de observación del ángulo $O$ y $L$ la distancia entre el campanil y el punto de medición del ángulo.}
 		\end{figure}
 		
-	En la siguiente tabla se recogen los datos obtenidos para tres distancias y ángulos diferentes:
-	\begin{table}[H]
-\centering
+	En la siguiente tabla \ref{tabla valores} se recogen los datos obtenidos para tres distancias y ángulos diferentes:
+	\end{multicols}
+	
+	\begin{table}[H]\label{tabla valores}
+	\centering
 \begin{tabular}{|c|c|c|c|}
 \hline
 \textbf{$\alpha$ (°)} & $L$ (m) & $d$ (m)&  $D$ (m) \\ \hline
@@ -85,8 +87,23 @@
 45.0 $\pm$ 0.5 & 43.0000 $\pm$ 0.0005 & 1.6000 $\pm$ 0.0005 &  43.00 \\ \hline
 \end{tabular}
 \caption{Ángulos y Distancias Medidas}
-\label{tab:angulos_distancias}
+\label{tab:angulos_distancias.}
 \end{table}
+
+\begin{multicols}{2}
+Considerando el valor medio de la altura estimada $\bar{D}$, obtenemos $\bar{D} = 42.52$, con un error representado por la desviación estándar $\sigma_D = 0.94$. Por lo tanto, la altura del campanil determinada experimentalmente es $D = 42.52 \pm 0.94$.\\
+
+\subsection*{Análisis}
+La altura del Campanil de la Universidad de Concepción es un dato conocido. Por ello, es posible estimar el \emph{error absoluto} y el \emph{error relativo} de nuestra medida:
+\begin{align}
+\varepsilon_{abs} &= |D - \bar{D} | = 0.02. \\
+\varepsilon_{rel} & = \frac{\varepsilon_{abs}}{\bar{D}} \cdot 100 =  0.05\%.
+\end{align}
+Ambos errores son prácticamente despreciables, por lo que válidamos tanto el proceso experimental como el tratamiento de las medidas obtenidas emipíricamente. 
+\subsection*{Conlusión}
+En el Análisis evidenciamos la efectividad del método empleado para estimar la altura del Campanil. Aunque las mediciones fueron realizadas con una rigurosidad relativa, obtuvimos resultados muy cercanos al valor esperado. Con ello, ponemos de manifiesto la gran capacidad y utilidad de las matemáticas utilizadas que, a pesar de su antigüedad, continúan siendo un recurso potente e indispensable para, por ejemplo, estimar la altura del campanil.
+
+
 		
 	\end{multicols}
 	
