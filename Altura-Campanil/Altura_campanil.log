@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.8.31)  24 AUG 2024 00:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.8.31)  26 AUG 2024 12:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -402,8 +402,8 @@ File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 \l__pdf_internal_box=\box99
 )
 (./Altura_campanil.aux
-LaTeX Info: Redefining \. on input line 26.
-LaTeX Info: Redefining \% on input line 26.
+LaTeX Info: Redefining \. on input line 28.
+LaTeX Info: Redefining \% on input line 28.
 )
 \openout1 = `Altura_campanil.aux'.
 
@@ -527,82 +527,113 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 42.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 66--68
+Underfull \hbox (badness 10000) in paragraph at lines 53--56
 
  []
 
 
-Underfull \hbox (badness 5274) in paragraph at lines 68--68
+Underfull \hbox (badness 5274) in paragraph at lines 69--69
 []\T1/cmr/bx/n/14.4 Procedimiento Ex-pe-ri-men-tal
  []
 
-<IMG/camp.pdf, id=32, 400.16594pt x 364.36235pt>
+<IMG/camp.pdf, id=36, 400.16594pt x 364.36235pt>
 File: IMG/camp.pdf Graphic file (type pdf)
 <use IMG/camp.pdf>
-Package pdftex.def Info: IMG/camp.pdf  used on input line 78.
-(pdftex.def)             Requested size: 160.06354pt x 145.74236pt.
-
-Overfull \vbox (17.76442pt too high) has occurred while \output is active []
-
-
+Package pdftex.def Info: IMG/camp.pdf  used on input line 79.
+(pdftex.def)             Requested size: 100.04123pt x 91.09036pt.
+<IMG/transportador.jpeg, id=37, 1204.5pt x 1606.0pt>
+File: IMG/transportador.jpeg Graphic file (type jpg)
+<use IMG/transportador.jpeg>
+Package pdftex.def Info: IMG/transportador.jpeg  used on input line 87.
+(pdftex.def)             Requested size: 120.45705pt x 160.6094pt.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./IMG/logo_udec.png> <./IM
 G/cfm_logo.png> <./IMG/camp.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
 
  []
 
-<IMG/altura_1.pdf, id=64, 462.52798pt x 346.89601pt>
-File: IMG/altura_1.pdf Graphic file (type pdf)
-<use IMG/altura_1.pdf>
-Package pdftex.def Info: IMG/altura_1.pdf  used on input line 113.
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--125
+
+ []
+
+<IMG/Altura_dist.pdf, id=71, 462.52798pt x 346.89601pt>
+File: IMG/Altura_dist.pdf Graphic file (type pdf)
+<use IMG/Altura_dist.pdf>
+Package pdftex.def Info: IMG/Altura_dist.pdf  used on input line 129.
 (pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
-<IMG/altura_2.pdf, id=65, 462.52798pt x 346.89601pt>
-File: IMG/altura_2.pdf Graphic file (type pdf)
-<use IMG/altura_2.pdf>
-Package pdftex.def Info: IMG/altura_2.pdf  used on input line 121.
+<IMG/Altura_dist_2.pdf, id=72, 462.52798pt x 346.89601pt>
+File: IMG/Altura_dist_2.pdf Graphic file (type pdf)
+<use IMG/Altura_dist_2.pdf>
+Package pdftex.def Info: IMG/Altura_dist_2.pdf  used on input line 137.
 (pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
-<IMG/proporcionalidad.pdf, id=66, 462.52798pt x 346.89601pt>
+[2 <./IMG/transportador.jpeg> <./IMG/Altura_dist.pdf>]
+<IMG/proporcionalidad.pdf, id=119, 462.52798pt x 346.89601pt>
 File: IMG/proporcionalidad.pdf Graphic file (type pdf)
 <use IMG/proporcionalidad.pdf>
-Package pdftex.def Info: IMG/proporcionalidad.pdf  used on input line 129.
+Package pdftex.def Info: IMG/proporcionalidad.pdf  used on input line 145.
 (pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
-[2 <./IMG/Altura_1.pdf> <./IMG/Altura_2.pdf> <./IMG/proporcionalidad.pdf>]
-(./Altura_campanil.bbl) [3] (./Altura_campanil.aux
-LaTeX Info: Redefining \. on input line 26.
-LaTeX Info: Redefining \% on input line 26.
+ (./Altura_campanil.bbl
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 6
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+Underfull \hbox (badness 1946) in paragraph at lines 10--13
+[]\T1/cmr/m/n/10 Universidad de Con-cep-ción.  \T1/cmr/m/it/10 Cam-pa-nil\T1/cm
+r/m/n/10 . [][]$\T1/cmtt/m/n/10 http : / / www2 . udec . cl / plazaestudiante /
+ breve _ historia _
+ []
+
+) [3 <./IMG/Altura_dist_2.pdf> <./IMG/proporcionalidad.pdf>]
+(./Altura_campanil.aux
+LaTeX Info: Redefining \. on input line 28.
+LaTeX Info: Redefining \% on input line 28.
 )
 Package rerunfilecheck Info: File `Altura_campanil.out' has not changed.
 (rerunfilecheck)             Checksum: 1B05B711F5B257046A8F8E40627457A1;769.
  ) 
 Here is how much of TeX's memory you used:
- 12199 strings out of 480144
- 186859 string characters out of 5893198
- 520508 words of memory out of 5000000
- 29965 multiletter control sequences out of 15000+600000
- 483907 words of font info for 69 fonts, out of 8000000 for 9000
+ 12226 strings out of 480144
+ 187746 string characters out of 5893198
+ 511810 words of memory out of 5000000
+ 29988 multiletter control sequences out of 15000+600000
+ 481989 words of font info for 63 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
- 60i,9n,63p,972b,528s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/ghernandez/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx120
+ 60i,9n,63p,1044b,510s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/ghernandez/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt100
 0.600pk> </home/ghernandez/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/e
-crm1000.600pk> </home/ghernandez/.texlive2021/texmf-var/fonts/pk/ljfour/jknappe
-n/ec/ecti0900.600pk> </home/ghernandez/.texlive2021/texmf-var/fonts/pk/ljfour/j
-knappen/ec/ecbx0900.600pk> </home/ghernandez/.texlive2021/texmf-var/fonts/pk/lj
-four/jknappen/ec/ecti1000.600pk> </home/ghernandez/.texlive2021/texmf-var/fonts
-/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/ghernandez/.texlive2021/texmf-var
-/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on Altura_campanil.pdf (3 pages, 191620 bytes).
+cbx1200.600pk> </home/ghernandez/.texlive2021/texmf-var/fonts/pk/ljfour/jknappe
+n/ec/ecrm1000.600pk> </home/ghernandez/.texlive2021/texmf-var/fonts/pk/ljfour/j
+knappen/ec/ecrm0900.600pk> </home/ghernandez/.texlive2021/texmf-var/fonts/pk/lj
+four/jknappen/ec/ecbx0900.600pk> </home/ghernandez/.texlive2021/texmf-var/fonts
+/pk/ljfour/jknappen/ec/ecti1000.600pk> </home/ghernandez/.texlive2021/texmf-var
+/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/ghernandez/.texlive2021/tex
+mf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on Altura_campanil.pdf (3 pages, 515555 bytes).
 PDF statistics:
- 423 PDF objects out of 1000 (max. 8388607)
- 147 compressed objects within 2 object streams
- 19 named destinations out of 1000 (max. 500000)
- 79 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 504 PDF objects out of 1000 (max. 8388607)
+ 162 compressed objects within 2 object streams
+ 22 named destinations out of 1000 (max. 500000)
+ 84 words of extra memory for PDF output out of 10000 (max. 10000000)
 
