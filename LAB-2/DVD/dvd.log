@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.8.31)  4 SEP 2024 16:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.8.31)  7 SEP 2024 15:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -420,10 +420,6 @@ File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 (./dvd.aux
 LaTeX Info: Redefining \. on input line 28.
 LaTeX Info: Redefining \% on input line 28.
-
-
-LaTeX Warning: Label `tab:angulos_distancias.' multiply defined.
-
 )
 \openout1 = `dvd.aux'.
 
@@ -528,15 +524,17 @@ LaTeX Info: Redefining \nameref on input line 44.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 44.
-<IMG/logo_udec.png, id=32, 649.42625pt x 255.95625pt>
-File: IMG/logo_udec.png Graphic file (type png)
-<use IMG/logo_udec.png>
-Package pdftex.def Info: IMG/logo_udec.png  used on input line 48.
+<../Altura-Campanil/IMG/logo_udec.png, id=24, 649.42625pt x 255.95625pt>
+File: ../Altura-Campanil/IMG/logo_udec.png Graphic file (type png)
+<use ../Altura-Campanil/IMG/logo_udec.png>
+Package pdftex.def Info: ../Altura-Campanil/IMG/logo_udec.png  used on input li
+ne 48.
 (pdftex.def)             Requested size: 129.88295pt x 51.19034pt.
-<IMG/cfm_logo.png, id=34, 341.275pt x 80.3pt>
-File: IMG/cfm_logo.png Graphic file (type png)
-<use IMG/cfm_logo.png>
-Package pdftex.def Info: IMG/cfm_logo.png  used on input line 48.
+<../Altura-Campanil/IMG/cfm_logo.png, id=26, 341.275pt x 80.3pt>
+File: ../Altura-Campanil/IMG/cfm_logo.png Graphic file (type png)
+<use ../Altura-Campanil/IMG/cfm_logo.png>
+Package pdftex.def Info: ../Altura-Campanil/IMG/cfm_logo.png  used on input lin
+e 48.
 (pdftex.def)             Requested size: 170.63707pt x 40.14989pt.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 56.
 
@@ -549,155 +547,158 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 56.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 67--70
+Underfull \hbox (badness 10000) in paragraph at lines 67--71
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--84
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
 
  []
 
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-LaTeX Warning: Citation `trigonometria' on page 1 undefined on input line 87.
-
-
-Underfull \hbox (badness 5274) in paragraph at lines 88--88
+ <../Altura-Campanil/IMG/logo_udec.png> <../Altura-Campanil/IMG/cfm_logo.png>]
+Underfull \hbox (badness 5274) in paragraph at lines 101--101
 []\T1/cmr/bx/n/14.4 Procedimiento Ex-pe-ri-men-tal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
+
+ []
+
+<Difracción.jpeg, id=68, 987.69pt x 779.91376pt>
+File: Difracción.jpeg Graphic file (type jpg)
+<use Difracción.jpeg>
+Package pdftex.def Info: Difracción.jpeg  used on input line 116.
+(pdftex.def)             Requested size: 197.5345pt x 155.97998pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
+
+ []
+
+[2 <./Difracción.jpeg>]
+<láser_verde.jpeg, id=93, 1204.5pt x 1606.0pt>
+File: láser_verde.jpeg Graphic file (type jpg)
+<use láser_verde.jpeg>
+Package pdftex.def Info: láser_verde.jpeg  used on input line 132.
+(pdftex.def)             Requested size: 120.45705pt x 160.6094pt.
+<láser_rojo.jpeg, id=94, 1204.5pt x 1606.0pt>
+File: láser_rojo.jpeg Graphic file (type jpg)
+<use láser_rojo.jpeg>
+Package pdftex.def Info: láser_rojo.jpeg  used on input line 140.
+(pdftex.def)             Requested size: 120.45705pt x 160.6094pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 206--207
+
+ []
+
+[3 <./láser_verde.jpeg> <./láser_rojo.jpeg>]
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
 
  []
 
 
-Overfull \vbox (11.88757pt too high) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
 
+ []
 
-Overfull \vbox (2.65918pt too high) has occurred while \output is active []
+<laser_rojo.pdf, id=106, 462.52798pt x 346.89601pt>
+File: laser_rojo.pdf Graphic file (type pdf)
+<use laser_rojo.pdf>
+Package pdftex.def Info: laser_rojo.pdf  used on input line 216.
+(pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
+<laser_verde.pdf, id=107, 462.52798pt x 346.89601pt>
+File: laser_verde.pdf Graphic file (type pdf)
+<use laser_verde.pdf>
+Package pdftex.def Info: laser_verde.pdf  used on input line 224.
+(pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
 
-
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-
- <./IMG/logo_udec.png> <./IMG/cfm_logo.png>]
-
-LaTeX Warning: Reference `Grafico campanil' on page 2 undefined on input line 1
-48.
-
-
-LaTeX Warning: Reference `Grafico campanil ajustado' on page 2 undefined on inp
-ut line 148.
-
-
-LaTeX Warning: Reference `Grafico campanil' on page 2 undefined on input line 1
-48.
-
-
-LaTeX Warning: Reference `Grafico campanil ajustado' on page 2 undefined on inp
-ut line 148.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
+Underfull \hbox (badness 10000) in paragraph at lines 233--234
 
  []
 
 
-LaTeX Warning: Reference `Ec. altura' on page 2 undefined on input line 150.
-
-
-LaTeX Warning: Reference `Grafico de proporcionalidad' on page 2 undefined on i
-nput line 150.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 150--154
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 150--154
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 150--154
-
- []
-
-[2] (./dvd.bbl
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 6
+(./dvd.bbl
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 5
 .
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 9--12
+Underfull \hbox (badness 10000) in paragraph at lines 8--11
 []\T1/cmr/m/n/10 International As-so-cia-tion of Sound and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--12
+Underfull \hbox (badness 10000) in paragraph at lines 8--11
 \T1/cmr/m/n/10 Au-dio-vi-sual Ar-chi-ves.  \T1/cmr/m/it/10 Des-crip-ci�n de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--12
+Underfull \hbox (badness 10000) in paragraph at lines 8--11
 \T1/cmr/m/it/10 los CDs y DVDs gra-ba-bles\T1/cmr/m/n/10 . ia-sa. [][]$\T1/cmtt
 /m/n/10 https :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--12
+Underfull \hbox (badness 10000) in paragraph at lines 8--11
 \T1/cmtt/m/n/10 / / www . iasa-[]web . org / tc04-[]es / 814-[]descripci %
+ []
+
+[4 <./laser_rojo.pdf> <./laser_verde.pdf>]
+Underfull \hbox (badness 5878) in paragraph at lines 28--31
+[]\T1/cmr/m/n/10 ThoughtCo.  \T1/cmr/m/it/10 The Vi-si-ble Spec-trum: Wa-ve-
  []
 
 ) 
 AED: lastpage setting LastPage
-[3] (./dvd.aux
+[5] (./dvd.aux
 LaTeX Info: Redefining \. on input line 28.
 LaTeX Info: Redefining \% on input line 28.
 )
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `dvd.out' has not changed.
-(rerunfilecheck)             Checksum: A1399C6938A5C1E3F51463B7F50543A8;952.
+(rerunfilecheck)             Checksum: 4BF291B00636734F537277E8AC0AF9E8;644.
  ) 
 Here is how much of TeX's memory you used:
- 12401 strings out of 480144
- 190070 string characters out of 5893198
- 527530 words of memory out of 5000000
- 30166 multiletter control sequences out of 15000+600000
- 482765 words of font info for 64 fonts, out of 8000000 for 9000
+ 12478 strings out of 480144
+ 191526 string characters out of 5893198
+ 526313 words of memory out of 5000000
+ 30214 multiletter control sequences out of 15000+600000
+ 483534 words of font info for 69 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
- 60i,11n,63p,1032b,512s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,12n,63p,847b,668s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/ghernandez/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt100
 0.600pk> </home/ghernandez/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/e
-cbx1000.600pk> </home/ghernandez/.texlive2021/texmf-var/fonts/pk/ljfour/jknappe
-n/ec/ecbx1200.600pk> </home/ghernandez/.texlive2021/texmf-var/fonts/pk/ljfour/j
-knappen/ec/ecrm0900.600pk> </home/ghernandez/.texlive2021/texmf-var/fonts/pk/lj
-four/jknappen/ec/ecbx0900.600pk> </home/ghernandez/.texlive2021/texmf-var/fonts
-/pk/ljfour/jknappen/ec/ecti1000.600pk> </home/ghernandez/.texlive2021/texmf-var
-/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/ghernandez/.texlive2021/tex
-mf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/ghernandez/.texlive20
-21/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy10.pfb>
-Output written on dvd.pdf (3 pages, 167345 bytes).
+cbx1200.600pk> </home/ghernandez/.texlive2021/texmf-var/fonts/pk/ljfour/jknappe
+n/ec/ecrm0900.600pk> </home/ghernandez/.texlive2021/texmf-var/fonts/pk/ljfour/j
+knappen/ec/ecbx0900.600pk> </home/ghernandez/.texlive2021/texmf-var/fonts/pk/lj
+four/jknappen/ec/ecti1000.600pk> </home/ghernandez/.texlive2021/texmf-var/fonts
+/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/ghernandez/.texlive2021/texmf-var
+/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/ghernandez/.texlive2021/tex
+mf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on dvd.pdf (5 pages, 625883 bytes).
 PDF statistics:
- 393 PDF objects out of 1000 (max. 8388607)
- 117 compressed objects within 2 object streams
- 16 named destinations out of 1000 (max. 500000)
- 67 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 555 PDF objects out of 1000 (max. 8388607)
+ 186 compressed objects within 2 object streams
+ 36 named destinations out of 1000 (max. 500000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
 

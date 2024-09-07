@@ -45,7 +45,7 @@
 	
 	\begin{figure}[H]
 		\raggedright
-		\includegraphics[scale=0.2]{IMG/logo_udec.png} \hfill \includegraphics[scale=0.5]{IMG/cfm_logo.png}
+		\includegraphics[scale=0.2]{../Altura-Campanil/IMG/logo_udec.png} \hfill \includegraphics[scale=0.5]{../Altura-Campanil/IMG/cfm_logo.png}
 	\end{figure}
 
 	\vspace{6mm}
@@ -64,9 +64,10 @@
 
       %ESTE ABSTRACT ES PARA EL RESUMEN PROPIAMENTE DICHO Y PARA LAS PALABRAS CLAVES (KEYWORDS) ,NOTA:el comando \par sirve para iniciar el nuevo parrafo con sangría.
 	\begin{abstract}
-	A partir de las mediciones de distancias y ángulos calculadas con una herramienta de propia fabricación se obtendrá una estimación de la altura del Campanil de la Universidad de Concepción.\\
+	A partir de conceptos fundamentales en física óptica diseñamos un montaje experimental para determinar la capacidad de un DVD-R de 120 minutos. El experimento se basó en la estimación del espaciado entre los surcos que conforman el disco óptico para luego calcular la capacidad.\\
+	Las estimación obtenidas indicaron una  capacidad de 158.97 [min] para un láser  con longitud de onda $\lambda_r = 650$[nm]  (rojo) y  173.19[min]  para un láser con longitud de onda $\lambda_v = 530$[nm] (verde). Sin embargo, estas mediciones presentaron un error del 32.47 $\%$ para el láser rojo y del 44.3 $\%$ para el láser verde.\\
 	\\
-		\textbf{Palabras Claves ---}  Campanil, Trigonometría, Aproximación Lineal.
+		\textbf{Palabras Claves ---}  DVD, Láser, Patrón de Difracción, Óptica.
 	\end{abstract}
 	
 	\begin{center}
@@ -77,39 +78,96 @@
 		\section{Introducción}
 			El DVD es un disco óptico para almacenamiento de datos. Las siglas DVD corresponden a \emph{Disco Versátil Digital}. Fue creado y desarrolloado en 1995 con su primer lanzamiento para 1 Noviembre de 1996, en Japón. El medio puede almacenar cualquier tipo de datos digitales y se ha utilizado ampliamente para almacenar programas de vídeo (vistos con reproductores de DVD), software y otros archivos informáticos. Los DVD ofrecen una capacidad de almacenamiento significativamente mayor que los discos compactos (CD) aunque tienen las mismas dimensiones. Un DVD estándar de una sola capa puede almacenar hasta 4,7 GB de datos, un DVD de doble capa hasta 8,5 GB. Las variantes pueden almacenar hasta un máximo de 17,08 GB \cite{wikiDVD}.\\
 			
-			En este laboratorio aprovecharemos las caracterísitcas ópticas del DVD para estimar su capacidad.
+			En este laboratorio trabajaremos con un DVD de capa simple y aprovecharemos sus caracterísitcas ópticas para estimar su capacidad.
 		\section{Marco Teórico}
-		\subsection{Especificaciones del DVD}
+		\subsection*{Especificaciones del DVD}
 		Los DVD almacenan información en una línea de \emph{surcos} microescópicos dispuestos en una espiral que va desde el centro del disco hacia la circunsferencia exterior. Así, todos los lectores de DVD utilizan láseres para leer la información codificada en los surcos. La longitud de onda del láser depende de la separación de los surcos, en general esta es de 0.74 [$\mu m$].\\
 		
 		Los DVD constan de tres capas: el sustrato de policarbonato transparente, la capa de colorante y la capa reflectante. En partícular, la capa de reflexión se encuentra en medio de las capas de policarbonato. La más importante es la capa de reflexión que consta, en la mayoría de los casos, de una lámina de aluminio que vuelve la superficie del DVD relfectante. Lo anterior permite que el láser del lector se refleje para ser leído por el sensor de recogida de la unidad fotocaptora. \cite{especificaciones_DVD}.
-		\subsection{Trigonometría}
+		\subsection*{Interferencia} 
+		Se habla de interferencia cuando dos o más ondas coinciden en la misma región del espacio en el mismo instante de tiempo. Luego, la función de onda total es la suma de las funciones individuales (Principio de SUperposición), no así la intensidad de total de la onda. En el caso particular de dos ondas, la intensidad de la onda resultante queda expresada por la \emph{ecuación de interferencia}:
+		\begin{equation}
+		I = I_1 + I_2 + 2\sqrt{I_1 I_2} \cos(\varphi),
+		\end{equation}
+		donde $\varphi = \varphi_2 - \varphi_1$ representa el factor de \emph{desfase} entre las ondas \cite{interferencia}.
+		\subsection*{Difracción}
+		En términos simples, la difracción es la curvatura de una onda alrededor de los bordes de una abertura o un obstáculo. Este fenómeno lo presentan todos los tipos de ondas. En particular, cuando la onda pasa por una rejilla se forma un \emph{patrón de difracción} caracterizado por máximos (puntos luminosos) y mínimos (puntos oscuros) de intensidad. Asimismo, es posible definir analíticamente los puntos de interfencia destructiva (minimos) ocasionados por una rejilla, a través de la siguiente expresión:
+		\begin{equation}\label{minimos de intensidad}
+		d \sin(\theta_n) = n \lambda, \hspace{5mm} n = \pm 1, \pm 2, \pm 3,... 
+		\end{equation}
+		Donde $d$ es el ancho de las ranuras en la rejilla, $\theta_n$ es el ángulo de incidencia que produce la intensidad mínima y $\lambda$ es la longitud de la onda \cite{wikidifrac}.
+		\subsection*{Trigonometría}
 		Etimológicamente la palabra trigonometría significa \textit{medida de los triángulos}. En efecto, es la ciencia que estudia las relaciones que ligan los lados de un triángulo y aplican esas realciones al cálculo de los elementos desconocidos. En particular, la trigonometría se basa en el conocimiento de los ángulos de un triángulo que establecen conexiones llamadas \textit{relaciones trigonométricas}. Las principales son el \emph{seno, coseno} y la \emph{tangente} \cite{trigonometria}.
 		\section{Procedimiento Experimental y Resultados}
-		Para este experimento utilizamos un DVD usual, compuesto por una capa vacía y otra con información (en adelante \emph{capa/disco óptico}), luego separamos ambas capas del DVD para trabajar únicamente con el disco que contiene toda la infomación. De esta forma, colocamos una pantalla de observación atrás del disco óptico y apuntamos un láser hacia este generando un patrón de difracción, visible en la pantalla, a causa de los surcos que componen la capa óptica. Para asegurar la estabilización del láser utilizamos un soporte universal.\\
+		Para este experimento utilizamos un DVD de una capa con un aŕea grabable calculada experimentalmente de 97.4 $\pm$ 1.9 [cm], compuesto por una capa vacía y otra con información (en adelante \emph{capa/disco óptico}). Luego separamos ambas capas del DVD para trabajar únicamente con el disco que contiene toda la infomación, es decir, los surcos. Después, colocamos una pantalla de observación atrás del disco óptico y apuntamos un láser hacia este generando un patrón de difracción, visible en la pantalla, a causa de los surcos que componen la capa óptica. Para asegurar la estabilización del láser utilizamos un soporte universal.\\
 		
-		Por su parte, medimos experimentalmente la distancia entre el láser y la pantalla de observación ($D$), la distancia entre la separación de los surcos observado en el patrón de difracción ($l$) y luego calculamos el ángulo de apertura ($\theta$) para la posterior estimación de la separación entre los surcos en el disco óptico.
+		Experimentalmente medimos la distancia entre el DVD y la pantalla de observación ($d$), así como el espaciado de los surcos observado en el patrón de difracción ($L$), en particular, medimos la separación entre el has de luz original (orden $n=0$) y el primer mínimo de interferencia visible en la pantalla (orden $n=1$). Finalmente, calculamos el ángulo de apertura ($\theta$) para la posterior estimación de la separación entre los surcos en el disco óptico ($D$), (Figuras \ref{imagen laser verde} y \ref{imagen laser rojo} ). \\
+		El valor del ángulo $\theta$ fue calculado mediante la siguiente expresión:
+		\begin{equation}
+		\tan(\theta) = \frac{L}{d} \Longrightarrow \theta = \arctan(\frac{L}{d}).
+		\end{equation}
+		Esta relación se puede apreciar mejor en la figura \ref{Diagarama} donde se explicita la relación entre las distancias y el ángulo en cuestión.\\
+		A continuación, utilizamos el concepto de patrón de difracción para estimar la separación entre los surcos. Para ello, notemos que $L$ representa la distancia hasta el primer mínimo de interferecia. Esto ímplica que trabajamos para n=1 en la expresión \ref{minimos de intensidad}, es decir:
+		\begin{equation}
+		D = \frac{\lambda}{\sin(\theta)}, \hspace{2mm} n = 1.
+		\end{equation}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale=0.2]{Difracción.jpeg}
+			\caption{Diagrama de la situación física del experimento. La red de difracción es generada por el DVD.}
+			\label{Diagarama}
+			\rule{80mm}{0.1mm}
+		\end{figure}
+	
+		En los cuadros \ref{tab:angulos_distancias.} y \ref{tab:angulos_distancias 2.} se recogen los valores obtenidos para el exprimento realizado con un lasér de longitud de onda $\lambda_r = 650$[nm]  (rojo) y $\lambda_v = 530$[nm] (verde), respectivamente. Sin embargo, un laser rojo emite luz con una longitud de onda entre 620-750[nm], mientras que un láser verde oscila alrededor de 495-570 [nm] \cite{colors}. Luego, consideraremos un error asociado a la longitud de onda de 65[nm] para el láser rojo y 37.5 [nm] para el láser verde, es decir, la mitad de la diferencia de los extremos en el rango de valores asociado.\\
+		
+		Por otra parte, el error asociado a la medida del ángulo $\theta$ y el espaciado del surco $D$ son calculados de manera analítica con la siguiente fórmula \cite{error}:
+		\begin{equation}
+		\sigma^2 = \sigma^2_x \left( \frac{\partial f}{\partial x} \right)^2 + \sigma^2_y \left( \frac{\partial f}{\partial y} \right)^2 + \sigma^2_z \left( \frac{\partial f}{\partial z} \right)^2+...
+		\end{equation}
+		\newpage
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale=0.1]{láser_verde.jpeg}
+			\caption{Montaje experimental para el láser verde}
+			\label{imagen laser verde}
+			\rule{80mm}{0.1mm}
+		\end{figure}
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale=0.1]{láser_rojo.jpeg}
+			\caption{Montaje experimental para el láser rojo}
+			\label{imagen laser rojo}
+			\rule{80mm}{0.1mm}
+		\end{figure}
+	
+	
+	
+		
+		
 	\end{multicols}
 	
 	\begin{table}[H]
 		\centering
 		\begin{tabular}{|c|c|c|c|}
 			\hline
-			$D$ (m) & $L$ (m) & $\theta$ (rad) )&  $d$(nm) \\ \hline
-			0.0240 $\pm$ 0.0005  & 0.034 $\pm$ 0.0005 &  0.956  & 783.407 \\
-			0.0300 $\pm$ 0.0005  & 0.0440 $\pm$ 0.0005 &  0.97  & 757.865\\
-			0.0400 $\pm$ 0.0005  & 0.0610 $\pm$ 0.0005 &  0.99  & 765.526\\ 
-			0.0500 $\pm$ 0.0005 & 0.0730 $\pm$ 0.0005 & 0.97  & 775.865\\ 
-			0.0600 $\pm$ 0.0005 & 0.0890 $\pm$ 0.0005 & 0.977 &  772.179\\ 
-			0.0700 $\pm$ 0.0005 & 0.1030 $\pm$ 0.0005 & 0.973  & 774.27 \\
-			0.0800 $\pm$ 0.0005  & 0.1190 $\pm$ 0.0005 &  0.978 & 771.659 \\ 
-			0.0900 $\pm$ 0.0005 & 0.1360 $\pm$ 0.0005 &  0.986  & 767.547 \\
-			0.1000 $\pm$ 0.0005 & 0.1550 $\pm$ 0.0005 &  0.997 & 762.044  \\
-			0.1100 $\pm$ 0.0005 & 0.1640 $\pm$ 0.0005 &  0.979  & 771.140 \\
-			0.1200 $\pm$ 0.0005 & 0.1720 $\pm$ 0.0005 &  0.961  & 780.711  \\
-			0.1300 $\pm$ 0.0005 & 0.1860 $\pm$ 0.0005 &  0.960 & 781.258 \\
-			0.1400 $\pm$ 0.0005 & 0.2030 $\pm$ 0.0005 &  0.967 & 777,466  \\
-			0.1500 $\pm$ 0.0005 & 0.2200 $\pm$ 0.0005 &  0.972 & 774.804  \\ \hline
+			$d$ (m) & $L$ (m) & $\theta$ (rad) )&  $D$(nm) \\ \hline
+			0.0240 $\pm$ 0.0005  & 0.034 $\pm$ 0.0005 &  0.95600 $\pm$ 0.00003  & 783.41 $\pm$ 0.44 \\
+			0.0300 $\pm$ 0.0005  & 0.0440 $\pm$ 0.0005 &  0.97000 $\pm$ 0.00002 & 757.86 $\pm$ 0.44\\
+			0.0400 $\pm$ 0.0005  & 0.0610 $\pm$ 0.0005 &  0.99000 $\pm$ 0.00002 & 765.52 $\pm$ 0.43 \\ 
+			0.0500 $\pm$ 0.0005 & 0.0730 $\pm$ 0.0005 & 0.97000 $\pm$ 0.00001 & 775.86 $\pm$ 0.44\\ 
+			0.0600 $\pm$ 0.0005 & 0.0890 $\pm$ 0.0005 & 0.97700 $\pm$ 0.00001 &  772.17 $\pm$ 0.44\\ 
+			0.0700 $\pm$ 0.0005 & 0.1030 $\pm$ 0.0005 & 0.97300 $\pm$ 0.00001 & 774.27 $\pm$ 0.44\\
+			0.0800 $\pm$ 0.0005  & 0.1190 $\pm$ 0.0005 &  0.97800 $\pm$ 0.00094 & 771.65 $\pm$ 0.44 \\ 
+			0.0900 $\pm$ 0.0005 & 0.1360 $\pm$ 0.0005 &  0.98600 $\pm$ 0.00086 & 767.54 $\pm$ 0.44 \\
+			0.1000 $\pm$ 0.0005 & 0.1550 $\pm$ 0.0005 &  0.99700 $\pm$ 0.00080 & 762.04 $\pm$ 0.44  \\
+			0.1100 $\pm$ 0.0005 & 0.1640 $\pm$ 0.0005 &  0.97900 $\pm$ 0.00069 & 771.14 $\pm$ 0.44 \\
+			0.1200 $\pm$ 0.0005 & 0.1720 $\pm$ 0.0005 &  0.96100 $\pm$ 0.00059 & 780.71 $\pm$ 0.45 \\
+			0.1300 $\pm$ 0.0005 & 0.1860 $\pm$ 0.0005 &  0.96000 $\pm$ 0.00054 & 781.25 $\pm$ 0.45 \\
+			0.1400 $\pm$ 0.0005 & 0.2030 $\pm$ 0.0005 &  0.96700 $\pm$ 0.00051 & 777,46 $\pm$ 0.45  \\
+			0.1500 $\pm$ 0.0005 & 0.2200 $\pm$ 0.0005 &  0.97200 $\pm$ 0.00049 & 774.80 $\pm$ 0.45  \\ \hline
 			
 		\end{tabular}
 		\caption{Ángulos y Distancias Medidas para el láser rojo}
@@ -121,48 +179,63 @@
 		\centering
 		\begin{tabular}{|c|c|c|c|}
 			\hline
-			$D$ (m) & $L$ (m) & $\theta$ (rad) )&  $d$(nm) \\ \hline
-			0.0220 $\pm$ 0.0005  & 0.0240 $\pm$ 0.0005 &  0.825  & 0 \\
-			0.0300 $\pm$ 0.0005  & 0.0320 $\pm$ 0.0005 &  0.817  & 0\\
-			0.0400 $\pm$ 0.0005  & 0.0420 $\pm$ 0.0005 &  0.809  & 0\\ 
-			0.0500 $\pm$ 0.0005 & 0.0570 $\pm$ 0.0005 & 0.850  & 0\\ 
-			0.0600 $\pm$ 0.0005 & 0.0660 $\pm$ 0.0005 & 0.832 &  0\\ 
-			0.0700 $\pm$ 0.0005 & 0.0770 $\pm$ 0.0005 & 0.832  & 0 \\
-			0.0800 $\pm$ 0.0005  & 0.0850 $\pm$ 0.0005 &  0.815 & 0 \\ 
-			0.0900 $\pm$ 0.0005 & 0.0980 $\pm$ 0.0005 &  0.827  & 0 \\
-			0.1000 $\pm$ 0.0005 & 0.1090 $\pm$ 0.0005 &  0.828 & 0  \\
-			0.1100 $\pm$ 0.0005 & 0.1200 $\pm$ 0.0005 &  0.828  & 0 \\
-			0.1200 $\pm$ 0.0005 & 0.1310 $\pm$ 0.0005 &  0.829  & 0  \\
-			0.1300 $\pm$ 0.0005 & 0.1430 $\pm$ 0.0005 &  0.832 & 0 \\
-			0.1400 $\pm$ 0.0005 & 0.1510 $\pm$ 0.0005 &  0.823 & 0  \\
-			0.1500 $\pm$ 0.0005 & 0.1610 $\pm$ 0.0005 &  0.820 & 0  \\ \hline
+			$d$ (m) & $L$ (m) & $\theta$ (rad) )&  $D$(nm) \\ \hline
+			0.0220 $\pm$ 0.0005  & 0.0240 $\pm$ 0.0005 &  0.82500 $\pm$ 0.00094 & 718.98 $\pm$ 0.44 \\
+			0.0300 $\pm$ 0.0005  & 0.0320 $\pm$ 0.0005 &  0.81700 $\pm$ 0.00051 & 726.48 $\pm$ 0.44 \\
+			0.0400 $\pm$ 0.0005  & 0.0420 $\pm$ 0.0005 &  0.80900 $\pm$ 0.00029 & 731.90 $\pm$ 0.43 \\ 
+			0.0500 $\pm$ 0.0005 & 0.0550 $\pm$ 0.0005 & 0.83000 $\pm$ 0.00060 & 716.27 $\pm$ 0.44 \\ 
+			0.0600 $\pm$ 0.0005 & 0.0660 $\pm$ 0.0005 & 0.83200 $\pm$ 0.00037 &  716.27  $\pm$ 0.44 \\ 
+			0.0700 $\pm$ 0.0005 & 0.0770 $\pm$ 0.0005 & 0.83200 $\pm$ 0.00032 & 716.27 $\pm$ 0.44  \\
+			0.0800 $\pm$ 0.0005  & 0.0850 $\pm$ 0.0005 &  0.81500 $\pm$ 0.00018 & 727.82 $\pm$ 0.44  \\ 
+			0.0900 $\pm$ 0.0005 & 0.0980 $\pm$ 0.0005 &  0.82700 $\pm$ 0.00022 & 719.59 $\pm$ 0.44  \\
+			0.1000 $\pm$ 0.0005 & 0.1090 $\pm$ 0.0005 &  0.82800 $\pm$ 0.00020 & 719.25 $\pm$ 0.44   \\
+			0.1100 $\pm$ 0.0005 & 0.1200 $\pm$ 0.0005 &  0.82800 $\pm$ 0.00018 & 718.98 $\pm$ 0.44  \\
+			0.1200 $\pm$ 0.0005 & 0.1310 $\pm$ 0.0005 &  0.82900 $\pm$ 0.00017 & 718.75 $\pm$ 0.45   \\
+			0.1300 $\pm$ 0.0005 & 0.1430 $\pm$ 0.0005 &  0.83200 $\pm$ 0.00017 & 716.27 $\pm$ 0.45  \\
+			0.1400 $\pm$ 0.0005 & 0.1510 $\pm$ 0.0005 &  0.82300 $\pm$ 0.00012 & 722.74 $\pm$ 0.45   \\
+			0.1500 $\pm$ 0.0005 & 0.1610 $\pm$ 0.0005 &  0.82000 $\pm$ 0.00011 & 724.38 $\pm$ 0.45   \\ \hline
 			
 		\end{tabular}
 		\caption{Ángulos y Distancias Medidas para el láser verde}
-		\label{tab:angulos_distancias.}
+		\label{tab:angulos_distancias 2.}
 		\rule{100mm}{0.1mm}
 	\end{table}
 
 	\begin{multicols}{2}
 	\section{Análisis}
-Los gráficos \ref{Grafico campanil} y \ref{Grafico campanil ajustado}  presentan los datos obtenidos durante el proceso experimental junto a su ajuste lineal, 		representado por la línea punteada. Del gráfico \ref{Grafico campanil} notamos que los datos se encuentran muy próximos entre si, 	con una desviación estándar de solo 0.3. Además, el ajuste lineal de los datos da como resultado una línea recta con una pendiente, aproximadamente nula, de 0.001 [m/rad]. Debido a esto, decidimos visualizar los datos en una escala más apropiada. Así, en el gráfico \ref{Grafico campanil ajustado} la aproximación lineal muestra una notoria linea recta que estabiliza el valor de la altura del Campanil a 41.64 [m]. Lo anterior es de esperar, pues estamos comparando la altura del campanil para distintos valores del ángulo $\alpha$. Cabe destacar que se seleccionaron solo siete datos, pues son suficientes para ajustar una recta que pase por todos los puntos y sus respectivos errores.\\
-
-Paralelamente, observamos que según la ecuación \ref{Ec. altura} el valor $D - d = L \tan(\alpha)$ debe ser una constante, pues la altura del Campanil $D$ es una constante (teóricamente) y no variamos  $d$ durante el proceso experimental. Esto nos permite validar el comportamiento de los datos verificando que las variables $L$ y $\tan(\alpha)$ exhiben una relación inversamente proporcional. En efecto, en el gráfico \ref{Grafico de proporcionalidad} evidenciamos una relación lineal inversamente proporcional. Luego, concluimos que los datos obtenidos son coherentes.\\
-\\
-\\
-\\
-En definitiva, considerando el valor al que converge la altura del Campanil según la aproximación lineal de los datos y el error asociado a este parámetro, estimamos la altura del Campanil $D$ en este experimento como: $$D = 41.64 \pm 1.31 [m].$$
+	En las figuras \ref{Grafico laser rojo} y \ref{Grafico laser verde} se grafican los datos obtenidos para la separación de los surcos ($D$) y el ángulo de seperación desde el centro hasta el primer mínimo de intensidad  medidos para un láser rojo y uno verde, respectivamente. Además, se grafica la aproximación lineal de los datos para caso representado por la línea punteada. De ambas figuras podemos concluir que las variables gurdan una relación \emph{inversamente proporcional}: mientras mayor sea el ángulo, menor  será el tamaño del surco. Esta correspondencia la podemos verificar en la ecuación \ref{minimos de intensidad}. Puesto que $n$ y $\lambda$ son constantes, a efectos del laboratorio, es de esperar que las variables $D$ y $\theta$ guarden una relación inversamente proporcional.\\
+	
+	Del análisis de los gráficos, concluimos que el tamaño del surco en el disco óptico no es un valor constante, sino que cambia su distribución a lo largo del DVD. No obstante, su variación se ve restringida en el intervalo 773-795 [nm] para el láser rojo y 716-795[nm] para el láser verde. Por lo tanto, teniendo en cuenta que los valores se encuentran en intervalo reducido y por simplicidad, se considerará el valor promedio de los datos obtenidos en cada caso para estimar la capcidad del DVD. Estos son $D_r =785.5 \pm 5.9$ [nm] para el láser rojo y $D_v = 721.0 \pm  4.7$[nm] para el láser verde.\\
+	
+	Ahora bien, podemos estimar la capacidad del DVD considerando que el largo grabable total de la distribución de los surcos en el disco esta representado por la ecuación \textit{$l = A/s$}, donde $l$ es el largo total de los surcos dispuestos en espiral en la superficie del DVD, $A$ el área grabable del disco y $s$ el tamaño estimado del surco. De esta forma, obtenemos los valores de $l_r = 1239.9$[Km]  y $l_v = 1350.9$[Km] para el láser rojo y verde, respectivamente. Luego, asumiendo una velocidad de escaneo promedio de $v = 1.3$[m/s] \cite{wikiCD}, podemos estimar la capacidad del DVD en minutos de forma tal que \textit{$t = l/v$}. Así, obtenemos los valores $t_r = 158.97$[min] y $t_v = 173.19$[min].\\
+	
+	Sabemos que el valor real de duración de grabación del DVD es de 120 minutos, por lo tanto podemos calcular el error asociado a los valores obtenidos para el láser rojo ($t_r$) y el láser verde ($t_v$). Así, obtenemos un error de 32.47 $\%$ para el láser rojo y de 44.3 $\%$ para el láser verde.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.4]{laser_rojo.pdf}
+		\caption{Gráfico del tamaño de los surcos del disco óptico en función del ángulo de desviación del láser rojo $\lambda_r = 650$[nm].}
+		\label{Grafico laser rojo}
+		\rule{80mm}{0.1mm}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.4]{laser_verde.pdf}
+		\caption{Gráfico del tamaño de los surcos del disco óptico en función del ángulo de desviación del láser verde $\lambda_v = 530$[nm]. }
+		\label{Grafico laser verde}
+		\rule{80mm}{0.1mm}
+	\end{figure}
 	
 
-Ahora bien, la altura del Campanil es un dato conocido. Con ello, es posible calcular el error absoluto y porcentual de nuestra estimación, de esta forma:
-\begin{align*}
-\epsilon_{abs} &= |42.5[m] - 41.64[m]| = 0.86 [m]\\
-\epsilon_{rel} &= \frac{0.86[m]}{41.64[m]}\cdot 100 = 2.06 \% 
-\end{align*}
-Mostrando así la validez de la estimación realizada en este experimento.
 	
 \section{Conlusión}
-En el análisis, demostramos la efectividad del método empleado para estimar la altura del campanil, viéndose reflejado en el bajo error absoluto y relativo de la medición. Sin embargo, observamos que el error asociado a la estimación de la altura del Campanil tiene un valor relevante de $\pm$ 1.31 [m], lo cual atribuimos a la falta de precisión en la medición durante el proceso experimental. A pesar de ello, los resultados obtenidos se acercan considerablemente al valor esperado, lo que destaca el tratamiento eficaz en el análisis de los datos junto a la gran capacidad y utilidad de las herramientas matemáticas utilizadas en la estimación de la altura del Campanil.
+En este laboratorio logrmos estimar la capacidad de un DVD utilizando sus características ópticas a nuestro favor. No obstante, los resultados presentaron un error significativo del 32.47 $\%$ para el láser rojo y de 44.3 $\%$ para el láser verde. EStos errores representan una falta de presición considerable.\\
+
+Argumentamos que la inexactitud en la medida puede atribuirse a diversos factores durante el proceso experimental. Entre estos destacan a falta de precisión en la orientación del láser hacia un punto específico del DVD, el movimiento del disco sin un control riguroso de la distancia u medir de forma poco precisa el patrón de difracción. Estos elementos constituyen a errores observados durante el experimento, de lo cual concluímos la necesidad de una mayor minuciosidad y control en la ejecución para obtener resultados más precisos.\\
+
+Pese a lo anterior, rescatamos que el análisis presentado en el informe fue satisfactorio. Se aplicarón conceptos fundamentales en óptica y ondas para determinar la capacidad del DVD, obteniendo estimaciones cercanas al valor real. Además, los procedimientos seguidos fueron validados de forma coherente lo que reafirma la validez del enfoque experimental y los métodos utilizados para alcanzar el resultado final.
+
 
 
 

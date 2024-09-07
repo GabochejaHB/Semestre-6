@@ -2,12 +2,41 @@
 
 \bibitem{wikiDVD}
 Colaboradores de~Wikipedia.
-\newblock \textit{DVD}. wikipedia.
-  \url{https://en.wikipedia.org/wiki/Compact_disc}, 2024.
+\newblock \textit{DVD}. wikipedia. \url{https://es.wikipedia.org/wiki/DVD}.
 
 \bibitem{especificaciones_DVD}
 International~Association of~Sound and Audiovisual Archives.
 \newblock \textit{Descripción de los CDs y DVDs grabables}. iasa.
   \url{https://www.iasa-web.org/tc04-es/814-descripci%C3%B3n-de-los-cds-y-dvds-grabables}.
+
+\bibitem{interferencia}
+José~G. Aguirre.
+\newblock {\em \textit{Óptica Ondulatoria u Óptica Física}}.
+\newblock Universidad de Concepción.
+
+\bibitem{wikidifrac}
+Wikipedia contributors.
+\newblock \textit{Diffraction}. wikipedia.
+  \url{https://en.wikipedia.org/wiki/Compact_disc}.
+
+\bibitem{trigonometria}
+Agust{\'\i}n Anfossi and Marco A~Flores Meyer.
+\newblock {\em Trigonometr{\'\i}a rectil{\'\i}nea}.
+\newblock Editorial Progreso, 1989.
+
+\bibitem{colors}
+ThoughtCo.
+\newblock \textit{The Visible Spectrum: Wavelengths and Colors}.
+  \url{https://www.thoughtco.com/understand-the-visible-spectrum-608329}.
+
+\bibitem{error}
+Department of~Physics and Astronomy.
+\newblock {\em \textit{Measurement and Uncertainty Analysis Guide}}.
+\newblock University of North Carolina.
+
+\bibitem{wikiCD}
+Wikipedia contributors.
+\newblock \textit{Compact Disc}. wikipedia.
+  \url{https://en.wikipedia.org/wiki/Compact_disc}.
 
 \end{thebibliography}
