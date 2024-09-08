@@ -64,8 +64,8 @@
 
       %ESTE ABSTRACT ES PARA EL RESUMEN PROPIAMENTE DICHO Y PARA LAS PALABRAS CLAVES (KEYWORDS) ,NOTA:el comando \par sirve para iniciar el nuevo parrafo con sangría.
 	\begin{abstract}
-	A partir de conceptos fundamentales en física óptica diseñamos un montaje experimental para determinar la capacidad de un DVD-R de 120 minutos. El experimento se basó en la estimación del espaciado entre los surcos que conforman el disco óptico para luego calcular la capacidad.\\
-	Las estimación obtenidas indicaron una  capacidad de 158.97 [min] para un láser  con longitud de onda $\lambda_r = 650$[nm]  (rojo) y  173.19[min]  para un láser con longitud de onda $\lambda_v = 530$[nm] (verde). Sin embargo, estas mediciones presentaron un error del 32.47 $\%$ para el láser rojo y del 44.3 $\%$ para el láser verde.\\
+	A partir de conceptos fundamentales en física óptica diseñamos un montaje experimental para determinar la capacidad de un DVD-R de 4.7 [GB] de almacenamiento. El experimento se basó en la estimación del espaciado entre los surcos que conforman el disco óptico para luego calcular la capacidad.\\
+	Las estimación obtenidas indicaron una  capacidad de 4.43 $\pm$ 0.07 [GB] para un láser  con longitud de onda $\lambda_r = 650$[nm]  (rojo) y  4.82 $\pm$ 0.07 [GB]  para un láser con longitud de onda $\lambda_v = 530$[nm] (verde). Estos valores presentaron un error relativo del 5.7 $\%$  para el láser rojo y 2.6 $\%$ para el láser verde, validando el proceso experimental y el tratameinto de los datos.\\
 	\\
 		\textbf{Palabras Claves ---}  DVD, Láser, Patrón de Difracción, Óptica.
 	\end{abstract}
@@ -99,7 +99,7 @@
 		\subsection*{Trigonometría}
 		Etimológicamente la palabra trigonometría significa \textit{medida de los triángulos}. En efecto, es la ciencia que estudia las relaciones que ligan los lados de un triángulo y aplican esas realciones al cálculo de los elementos desconocidos. En particular, la trigonometría se basa en el conocimiento de los ángulos de un triángulo que establecen conexiones llamadas \textit{relaciones trigonométricas}. Las principales son el \emph{seno, coseno} y la \emph{tangente} \cite{trigonometria}.
 		\section{Procedimiento Experimental y Resultados}
-		Para este experimento utilizamos un DVD de una capa con un aŕea grabable calculada experimentalmente de 97.4 $\pm$ 1.9 [cm], compuesto por una capa vacía y otra con información (en adelante \emph{capa/disco óptico}). Luego separamos ambas capas del DVD para trabajar únicamente con el disco que contiene toda la infomación, es decir, los surcos. Después, colocamos una pantalla de observación atrás del disco óptico y apuntamos un láser hacia este generando un patrón de difracción, visible en la pantalla, a causa de los surcos que componen la capa óptica. Para asegurar la estabilización del láser utilizamos un soporte universal.\\
+		Para este experimento utilizamos un DVD de una capa, compuesto por una capa vacía y otra con información (en adelante \emph{capa/disco óptico}). Luego separamos ambas capas del DVD para trabajar únicamente con el disco que contiene toda la infomación, es decir, los surcos. Después, colocamos una pantalla de observación atrás del disco óptico y apuntamos un láser hacia este generando un patrón de difracción, visible en la pantalla, a causa de los surcos que componen la capa óptica. Para asegurar la estabilización del láser utilizamos un soporte universal.\\
 		
 		Experimentalmente medimos la distancia entre el DVD y la pantalla de observación ($d$), así como el espaciado de los surcos observado en el patrón de difracción ($L$), en particular, medimos la separación entre el has de luz original (orden $n=0$) y el primer mínimo de interferencia visible en la pantalla (orden $n=1$). Finalmente, calculamos el ángulo de apertura ($\theta$) para la posterior estimación de la separación entre los surcos en el disco óptico ($D$), (Figuras \ref{imagen laser verde} y \ref{imagen laser rojo} ). \\
 		El valor del ángulo $\theta$ fue calculado mediante la siguiente expresión:
@@ -122,7 +122,7 @@
 		En los cuadros \ref{tab:angulos_distancias.} y \ref{tab:angulos_distancias 2.} se recogen los valores obtenidos para el exprimento realizado con un lasér de longitud de onda $\lambda_r = 650$[nm]  (rojo) y $\lambda_v = 530$[nm] (verde), respectivamente. Sin embargo, un laser rojo emite luz con una longitud de onda entre 620-750[nm], mientras que un láser verde oscila alrededor de 495-570 [nm] \cite{colors}. Luego, consideraremos un error asociado a la longitud de onda de 65[nm] para el láser rojo y 37.5 [nm] para el láser verde, es decir, la mitad de la diferencia de los extremos en el rango de valores asociado.\\
 		
 		Por otra parte, el error asociado a la medida del ángulo $\theta$ y el espaciado del surco $D$ son calculados de manera analítica con la siguiente fórmula \cite{error}:
-		\begin{equation}
+		\begin{equation}\label{errores}
 		\sigma^2 = \sigma^2_x \left( \frac{\partial f}{\partial x} \right)^2 + \sigma^2_y \left( \frac{\partial f}{\partial y} \right)^2 + \sigma^2_z \left( \frac{\partial f}{\partial z} \right)^2+...
 		\end{equation}
 		\newpage
@@ -200,16 +200,20 @@
 		\label{tab:angulos_distancias 2.}
 		\rule{100mm}{0.1mm}
 	\end{table}
-
+\newpage
 	\begin{multicols}{2}
 	\section{Análisis}
-	En las figuras \ref{Grafico laser rojo} y \ref{Grafico laser verde} se grafican los datos obtenidos para la separación de los surcos ($D$) y el ángulo de seperación desde el centro hasta el primer mínimo de intensidad  medidos para un láser rojo y uno verde, respectivamente. Además, se grafica la aproximación lineal de los datos para caso representado por la línea punteada. De ambas figuras podemos concluir que las variables gurdan una relación \emph{inversamente proporcional}: mientras mayor sea el ángulo, menor  será el tamaño del surco. Esta correspondencia la podemos verificar en la ecuación \ref{minimos de intensidad}. Puesto que $n$ y $\lambda$ son constantes, a efectos del laboratorio, es de esperar que las variables $D$ y $\theta$ guarden una relación inversamente proporcional.\\
+	En las figuras \ref{Grafico laser rojo} y \ref{Grafico laser verde} se grafican los datos obtenidos para la separación de los surcos ($D$) y el ángulo de seperación desde el centro hasta el primer mínimo de intensidad  medidos para un láser rojo y uno verde, respectivamente. Además, se grafica la aproximación lineal de los datos para caso representado por la línea punteada. De ambas figuras podemos concluir que las variables gurdan una relación \emph{inversamente proporcional}. Esta correspondencia la podemos verificar en la ecuación \ref{minimos de intensidad}. Puesto que $n$ y $\lambda$ son constantes, a efectos del laboratorio, es de esperar que las variables $D$ y $\theta$ guarden una relación inversamente proporcional.\\
 	
-	Del análisis de los gráficos, concluimos que el tamaño del surco en el disco óptico no es un valor constante, sino que cambia su distribución a lo largo del DVD. No obstante, su variación se ve restringida en el intervalo 773-795 [nm] para el láser rojo y 716-795[nm] para el láser verde. Por lo tanto, teniendo en cuenta que los valores se encuentran en intervalo reducido y por simplicidad, se considerará el valor promedio de los datos obtenidos en cada caso para estimar la capcidad del DVD. Estos son $D_r =785.5 \pm 5.9$ [nm] para el láser rojo y $D_v = 721.0 \pm  4.7$[nm] para el láser verde.\\
-	
-	Ahora bien, podemos estimar la capacidad del DVD considerando que el largo grabable total de la distribución de los surcos en el disco esta representado por la ecuación \textit{$l = A/s$}, donde $l$ es el largo total de los surcos dispuestos en espiral en la superficie del DVD, $A$ el área grabable del disco y $s$ el tamaño estimado del surco. De esta forma, obtenemos los valores de $l_r = 1239.9$[Km]  y $l_v = 1350.9$[Km] para el láser rojo y verde, respectivamente. Luego, asumiendo una velocidad de escaneo promedio de $v = 1.3$[m/s] \cite{wikiCD}, podemos estimar la capacidad del DVD en minutos de forma tal que \textit{$t = l/v$}. Así, obtenemos los valores $t_r = 158.97$[min] y $t_v = 173.19$[min].\\
-	
-	Sabemos que el valor real de duración de grabación del DVD es de 120 minutos, por lo tanto podemos calcular el error asociado a los valores obtenidos para el láser rojo ($t_r$) y el láser verde ($t_v$). Así, obtenemos un error de 32.47 $\%$ para el láser rojo y de 44.3 $\%$ para el láser verde.
+	 Notemos que la variación del espaciamiento del surco medido experimentalmente se ve restringida en el intervalo 773-795 [nm] para el láser rojo y 716-795[nm] para el láser verde. Por lo tanto, teniendo en cuenta que los valores se encuentran en un intervalo reducido, y por simplicidad; se considerará el valor promedio de los datos obtenidos en cada caso para estimar la capcidad del DVD. Estos son $D_r =785.5 \pm 5.9$ [nm] para el láser rojo y $D_v = 721.0 \pm  4.7$[nm] para el láser verde.\\
+	 
+	 Ahora bien, podemos estimar la capacidad del DVD considerando que el radio grabable del disco, medido experimentalmente, es de 3.7 $\pm$ 0.5 [mm]. Además, el \emph{valor real} del espaciamiento del surco aparece representado en la literatura con un valor de 740 [nm] \cite{wikiCD}. De lo anterior, podemos definir la \emph{denisdad lineal de surcos} como la cantidad de surcos por unidad de longitud (radio grabable del disco), tal que:
+	 \begin{equation}\label{densidad}
+	 \sigma = \frac{3.7\cdot 10^{-2} [m]}{740 \cdot 10^{-9} [m]} = 50000 
+	 \end{equation}
+	 
+	 La relación \ref{densidad} representa que hay 50000 surcos por cada metro grabable en el DVD. En este sentido, dado que la capacidad real del disco es de 4.7 [GB], podemos relacionar los valores obtenidos experimentalmente con la capacidad estándar de 4.7 [GB] por cada 50000 surcos. De esta forma, obtenemos las densidades lineales de 47099.3 $\pm$ 478.2 para el láser rojo y 51317.6 $\pm$ 769.9 para el verde, lo que se traduce en capacidades de 4.43 $\pm$ 0.07[GB] y 4.82 $\pm$ 0.07[GB], respectivamente. Cabe mencionar que los errores de propagación, tanto de las densidades como de la capacidad resultante, fueron calculados con la expresión \ref{errores}. \\
+	Por otra parte, sabemos que el valor real de almacenamiento del DVD es de 4.7 [GB], por lo tanto, podemos calcular el error asociado a los valores obtenidos para el láser rojo y verde. Así, obtenemos un error de 5.7 $\%$ para el láser rojo y de 2.6 $\%$ para el láser verde.
 	
 	\begin{figure}[H]
 		\centering
@@ -230,11 +234,7 @@
 
 	
 \section{Conlusión}
-En este laboratorio logrmos estimar la capacidad de un DVD utilizando sus características ópticas a nuestro favor. No obstante, los resultados presentaron un error significativo del 32.47 $\%$ para el láser rojo y de 44.3 $\%$ para el láser verde. EStos errores representan una falta de presición considerable.\\
-
-Argumentamos que la inexactitud en la medida puede atribuirse a diversos factores durante el proceso experimental. Entre estos destacan a falta de precisión en la orientación del láser hacia un punto específico del DVD, el movimiento del disco sin un control riguroso de la distancia u medir de forma poco precisa el patrón de difracción. Estos elementos constituyen a errores observados durante el experimento, de lo cual concluímos la necesidad de una mayor minuciosidad y control en la ejecución para obtener resultados más precisos.\\
-
-Pese a lo anterior, rescatamos que el análisis presentado en el informe fue satisfactorio. Se aplicarón conceptos fundamentales en óptica y ondas para determinar la capacidad del DVD, obteniendo estimaciones cercanas al valor real. Además, los procedimientos seguidos fueron validados de forma coherente lo que reafirma la validez del enfoque experimental y los métodos utilizados para alcanzar el resultado final.
+En este laboratorio logramos estimar la capacidad de un DVD utilizando sus características ópticas a nuestro favor. Obtuvimos como resultado una capacidad de  4.43 $\pm$ 0.07[GB] para el láser rojo y 4.82 $\pm$ 0.07[GB] para el láser verde. Los valores estimados presentaron un error poco significativo de tan solo 5.7 $\%$  y 2.7 $\%$ para el láser rojo y  verde, respectivamente.  Argumentamos que los errores asociados a la medición son consecuencia de impresiciones en el proceso experimental, como la dispersión del láser o la falta de exactitud al  alejar el DVD de la pantalla.  No obstante, la baja magnitud de estos errores sugieren una correcta ejecución del experimento y un adecuado tratamiento de los datos. Rescatamos que el análisis presentado en el informe fue satisfactorio, aplicando conceptos fundamentales en óptica y ondas para determinar la capacidad del DVD, y obteniendo estimaciones cercanas al valor real. Además, los procedimientos seguidos fueron validados de forma coherente lo que reafirma la validez del enfoque experimental y los métodos utilizados para alcanzar el resultado final. 
 
 
 
