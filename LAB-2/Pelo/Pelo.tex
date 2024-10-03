@@ -1,0 +1,152 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{multicol}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{hyperref}
+\definecolor{pinegreen}{rgb}{0.36, 0.54, 0.66}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=pinegreen,      
+    urlcolor=red,
+    }
+\addto{\captionsspanish}{\renewcommand{\abstractname}{Abstract}}
+\newcommand{\celda}[1]{
+	\begin{minipage}{2cm}
+		\vspace{2mm}
+		#1
+		\vspace{2mm}
+	\end{minipage}
+}
+\definecolor{pinegreen}{rgb}{0.36, 0.54, 0.66}
+\usepackage[left=2.00cm, right=2.00cm, top=2.00cm, bottom=2.00cm]{geometry}
+%-----------------------
+\usepackage{fancyhdr}
+\usepackage{lastpage}   
+\pagestyle{fancy} 
+\fancyhf{}   
+\rhead{Gabriel Hernández}                       %Create right header text
+\chead{Medición de la capacidad de un DVD}  
+\lhead{Laboratorio 2}                        %Create left header text
+                   %Create center header text
+
+\rfoot{Page \thepage \hspace{1pt} of \pageref{LastPage}}    %Create right footer text
+\renewcommand{\headrulewidth}{0.2pt}      %Set header line thickness to 0 pt [default=1pt]
+\renewcommand{\footrulewidth}{0pt}      %Set footer line thickness to 0 pt [default =0pt]
+%-----------------------
+\author{Gabriel Hernandez Bello}
+\begin{document}
+	
+	\begin{figure}[H]
+		\raggedright
+		\includegraphics[scale=0.2]{../Altura-Campanil/IMG/logo_udec.png} \hfill \includegraphics[scale=0.5]{../Altura-Campanil/IMG/cfm_logo.png}
+	\end{figure}
+
+	\vspace{6mm}
+	%ESTE CENTER ES EXCLUSIVO PARA EL TITULO DEL PAPER, AUTOR Y UNIVER.
+	\begin{center}
+		{\Large \textbf{Medición del grosor de un pelo}}\\
+		\vspace{2mm}
+		{\large Gabriel Hernández Bello$^{1}$}\\
+		\vspace{6.5mm}
+		$^1$\textit{Universidad de Concepción, Facultad de Ciencias Físicas y Matemáticas, Ciencias Físicas. }\\
+	\end{center}
+
+	\begin{center}
+		\textcolor{pinegreen}{\rule{150mm}{0.8mm}}
+	\end{center}
+
+      %ESTE ABSTRACT ES PARA EL RESUMEN PROPIAMENTE DICHO Y PARA LAS PALABRAS CLAVES (KEYWORDS) ,NOTA:el comando \par sirve para iniciar el nuevo parrafo con sangría.
+	\begin{abstract}
+
+		\textbf{Palabras Claves ---}  DVD, Láser, Patrón de Difracción, Óptica.
+	\end{abstract}
+	
+	\begin{center}
+		\textcolor{pinegreen}{\rule{150mm}{0.8mm}}
+	\end{center}
+	
+	\begin{multicols}{2}
+		\section{Introducción}
+		El fenómeno de la difracción de la luz es fundamental para el estudio del comportamiento ondulatorio de la luz y su interacción con objetos de tamaño comparable a su longitud de onda. La medición de elementos delgados, como un pelo, puede ser una tarea sencilla si se aplican conceptos como la difracción.\\
+		
+		 Cuando un haz de luz incide sobre un obstáculo estrecho, como un cabello, la luz se difracta al rodear sus bordes, creando un patrón característico de franjas claras y oscuras en una pantalla ubicada detrás del objeto, fenómeno conocido como el principio de Babinet \cite{babinet}. Este patrón es resultado de la interferencia de las ondas de luz que se propagan desde los bordes del objeto, formando una serie de máximos y mínimos de intensidad. \\
+		
+		En este laboratorio, emplearemos herramientas matemáticas y conceptos de física óptica para estimar el grosor de dos pelos humanos diferentes. Para ello, tendremos en cuenta que el grosor del pelo humano varía entre 17 [$\mu$m] y 181 [$\mu$m] \cite{wikiPELO}. 
+			
+		\section{Marco Teórico}
+		\subsection*{Interferencia} 
+		Se habla de interferencia cuando dos o más ondas coinciden en la misma región del espacio en el mismo instante de tiempo. Luego, la función de onda total es la suma de las funciones individuales (Principio de SUperposición), no así la intensidad de total de la onda. En el caso particular de dos ondas, la intensidad de la onda resultante queda expresada por la \emph{ecuación de interferencia}:
+		\begin{equation}
+		I = I_1 + I_2 + 2\sqrt{I_1 I_2} \cos(\varphi),
+		\end{equation}
+		donde $\varphi = \varphi_2 - \varphi_1$ representa el factor de \emph{desfase} entre las ondas \cite{interferencia}.
+		\subsection*{Difracción}
+		En términos simples, la difracción es la curvatura de una onda alrededor de los bordes de una abertura o un obstáculo. Este fenómeno lo presentan todos los tipos de ondas. En particular, cuando la onda pasa por una rejilla se forma un \emph{patrón de difracción} caracterizado por máximos (puntos luminosos) y mínimos (puntos oscuros) de intensidad. Asimismo, es posible definir analíticamente los puntos de interfencia destructiva (minimos) ocasionados por una rejilla, a través de la siguiente expresión:
+		\begin{equation}\label{minimos de intensidad}
+		d \sin(\theta_n) = n \lambda, \hspace{5mm} n = \pm 1, \pm 2, \pm 3,... 
+		\end{equation}
+		Donde $d$ es el ancho de las ranuras en la rejilla, $\theta_n$ es el ángulo de incidencia que produce la intensidad mínima y $\lambda$ es la longitud de la onda \cite{wikidifrac}. \\
+		En la figura \ref{Red de difracción} se muestra un diagrama de la situación física, donde $d$ es la distancia entre la red de difracción (pelo) y la pantalla, $\theta$ es el ángulo de desviación y $L$ es el espaciado entre los puntos generados en el patrón de difracción. 
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale=0.2]{../DVD/Difracción.jpeg} 
+			\caption{Diagrama de la situación física del experimento. La red de difracción es generada por el pelo.}
+			\label{Red de difracción}
+			\rule{80mm}{0.1mm}
+		\end{figure}
+		
+		\subsection*{Trigonometría}
+		Etimológicamente la palabra trigonometría significa \textit{medida de los triángulos}. En efecto, es la ciencia que estudia las relaciones que ligan los lados de un triángulo y aplican esas realciones al cálculo de los elementos desconocidos. En particular, la trigonometría se basa en el conocimiento de los ángulos de un triángulo que establecen conexiones llamadas \textit{relaciones trigonométricas}. Las principales son el \emph{seno, coseno} y la \emph{tangente} \cite{trigonometria}.
+		\section{Procedimiento Experimental y Resultados}
+		Para este experimento usamos un láser verde con longitud de onda 530[nm] y una huincha para la medición de las distancias. Además, elaboramos un soporte manualmente para fijar el pelo. De esta forma, apuntamos el láser hacia el pelo generando un patrón de difracción visible en la pantalla de observación (pared).\\
+		
+		Experimentalmente medimos la distancia entre la red de difracción (pelo) y la pantalla de observación ($d$) además del  espaciado entre el has de luz original (orden $n = 0$) y el primer mínimo de interferencia visible en la pantalla (orden $n=1$). Finalmente calculamos el ángulo de apertura ($\theta$) para la posterior estimación del grosor del pelo ($D$).\\
+		El valor del ángulo $\theta$ fue calculado mediante la siguiente expresión:
+		\begin{equation}
+		\tan(\theta) = \frac{L}{d} \Longrightarrow \theta = \arctan(\frac{L}{d}).
+		\end{equation}
+		Esta relación se puede apreciar mejor en la figura \ref{Red de difracción} donde se explicita la relación entre las distancias y el ángulo en cuestión.\\
+		A continuación, utilizamos el concepto de patrón de difracción para estimar el grosor del pelo. Para ello, notemos que $L$ representa la distancia hasta el primer mínimo de interferecia. Esto ímplica que trabajamos para n=1 en la expresión \ref{minimos de intensidad}, es decir:
+		\begin{equation}
+		D = \frac{\lambda}{\sin(\theta)}, \hspace{2mm} n = 1.
+		\end{equation}
+		
+		En los cuadros \ref{tab:angulos_distancias.} y \ref{tab:angulos_distancias 2.} se recogen los valores obtenidos para el exprimento realizado con un lasér verde con longitud de onda $\lambda = 530$[nm]. Sin embargo, un láser verde emite luz con una longitud de onda entre 495-570 [nm] \cite{colors}. Luego, consideraremos un error asociado a la longitud de onda de 37.5 [nm], es decir, la mitad de la diferencia de los extremos en el rango de valores asociado.\\
+		
+		Por otra parte, el error asociado a la medida del ángulo $\theta$ y el grosor del pelo $D$ son calculados de manera analítica con la siguiente fórmula \cite{error}:
+		\begin{equation}\label{errores}
+		\sigma^2 = \sigma^2_x \left( \frac{\partial f}{\partial x} \right)^2 + \sigma^2_y \left( \frac{\partial f}{\partial y} \right)^2 + \sigma^2_z \left( \frac{\partial f}{\partial z} \right)^2+...
+		\end{equation}
+		
+	
+	
+		
+	
+	
+		
+	\section{Análisis}
+
+	
+	
+	
+
+	
+	\section{Conlusión}
+
+
+
+
+
+	\bibliographystyle{unsrt}
+	\bibliography{ref}
+	
+	\end{multicols}
+\end{document}
