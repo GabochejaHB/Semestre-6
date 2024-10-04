@@ -110,30 +110,94 @@
 		
 		Experimentalmente medimos la distancia entre la red de difracción (pelo) y la pantalla de observación ($d$) además del  espaciado entre el has de luz original (orden $n = 0$) y el primer mínimo de interferencia visible en la pantalla (orden $n=1$). Finalmente calculamos el ángulo de apertura ($\theta$) para la posterior estimación del grosor del pelo ($D$).\\
 		El valor del ángulo $\theta$ fue calculado mediante la siguiente expresión:
-		\begin{equation}
+		\begin{equation} 
 		\tan(\theta) = \frac{L}{d} \Longrightarrow \theta = \arctan(\frac{L}{d}).
 		\end{equation}
 		Esta relación se puede apreciar mejor en la figura \ref{Red de difracción} donde se explicita la relación entre las distancias y el ángulo en cuestión.\\
 		A continuación, utilizamos el concepto de patrón de difracción para estimar el grosor del pelo. Para ello, notemos que $L$ representa la distancia hasta el primer mínimo de interferecia. Esto ímplica que trabajamos para n=1 en la expresión \ref{minimos de intensidad}, es decir:
-		\begin{equation}
+		\begin{equation} \label{minimo de intensidad para n=1}
 		D = \frac{\lambda}{\sin(\theta)}, \hspace{2mm} n = 1.
 		\end{equation}
 		
-		En los cuadros \ref{tab:angulos_distancias.} y \ref{tab:angulos_distancias 2.} se recogen los valores obtenidos para el exprimento realizado con un lasér verde con longitud de onda $\lambda = 530$[nm]. Sin embargo, un láser verde emite luz con una longitud de onda entre 495-570 [nm] \cite{colors}. Luego, consideraremos un error asociado a la longitud de onda de 37.5 [nm], es decir, la mitad de la diferencia de los extremos en el rango de valores asociado.\\
+		En los cuadros \ref{tab:angulos_distancias.} y \ref{tab:angulos_distancias 2.} se recogen los valores obtenidos para el exprimento realizado con un lasér verde con longitud de onda $\lambda = 530$[nm]. Sin embargo, un láser verde emite luz con una longitud de onda entre 495-570 [nm] \cite{colors}. Luego, consideramos un error asociado a esta magnitud de 37.5 [nm], es decir, la mitad de la diferencia de los extremos en el rango de valores correspondiente.\\
 		
 		Por otra parte, el error asociado a la medida del ángulo $\theta$ y el grosor del pelo $D$ son calculados de manera analítica con la siguiente fórmula \cite{error}:
 		\begin{equation}\label{errores}
 		\sigma^2 = \sigma^2_x \left( \frac{\partial f}{\partial x} \right)^2 + \sigma^2_y \left( \frac{\partial f}{\partial y} \right)^2 + \sigma^2_z \left( \frac{\partial f}{\partial z} \right)^2+...
 		\end{equation}
-		
+	\end{multicols}
 	
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{|c|c|c|c|}
+			\hline
+			$d$ (cm) & $L$ (cm) & $\theta$ (rad) )&  $D$($\mu$m) \\ \hline
+			220.00 $\pm$ 0.05  & 1.20 $\pm$ 0.05 &  0.0054 $\pm$ 0.0002  & 97.1 $\pm$ 7.9 \\
+			200.00 $\pm$ 0.05  & 1.10 $\pm$ 0.05 &  0.0055 $\pm$ 0.0002  & 96.3 $\pm$ 8.1 \\
+			180.00 $\pm$ 0.05  & 1.00 $\pm$ 0.05 &  0.0055 $\pm$ 0.0002 & 95.4 $\pm$ 8.2\\
+			160.00 $\pm$ 0.05  & 0.90 $\pm$ 0.05 &  0.0056 $\pm$ 0.0003 & 94.2 $\pm$ 8.4 \\ 
+			140.00 $\pm$ 0.05 & 0.80 $\pm$ 0.05 & 0.0057 $\pm$ 0.0003 & 92.7 $\pm$ 8.7\\ 
+			120.00 $\pm$ 0.05 & 0.70 $\pm$ 0.05 & 0.0058 $\pm$ 0.0004 &  90.8 $\pm$ 9.1\\ 
+			100.00 $\pm$ 0.05 & 0.60 $\pm$ 0.05 & 0.0059 $\pm$ 0.0004 & 88.3 $\pm$ 9.6\\
+			80.00 $\pm$ 0.05  & 0.50 $\pm$ 0.05 &  0.0062 $\pm$ 0.0006 & 84.8 $\pm$ 10.3 \\ 
+			60.00 $\pm$ 0.05 & 0.40 $\pm$ 0.05 &  0.0066 $\pm$ 0.0008 & 79.5 $\pm$ 11.4 \\
+			40.00 $\pm$ 0.05 & 0.30 $\pm$ 0.05 &  0.0074 $\pm$ 0.0012 & 70.6 $\pm$ 12.7  \\ \hline
+			
+		\end{tabular}
+		\caption{Ángulos y Distancias medidas para el pelo \textit{1}.}
+		\label{tab:angulos_distancias.}
+		\rule{100mm}{0.1mm}
+	\end{table}
 	
-		
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{|c|c|c|c|}
+			\hline
+			$d$ (cm) & $L$ (cm) & $\theta$ (rad) )&  $D$($\mu$m) \\ \hline
+			220.00 $\pm$ 0.05  & 1.30 $\pm$ 0.05 &  0.0059 $\pm$ 0.0002  & 89.6 $\pm$ 7.2\\
+			200.00 $\pm$ 0.05  & 1.20 $\pm$ 0.05 &  0.0059 $\pm$ 0.0002  & 88.3 $\pm$ 7.2 \\
+			180.00 $\pm$ 0.05  & 1.10 $\pm$ 0.05 &  0.0061 $\pm$ 0.0002 & 86.7 $\pm$ 7.2\\
+			160.00 $\pm$ 0.05  & 1.00 $\pm$ 0.05 &  0.0062 $\pm$ 0.0003 & 84.8 $\pm$ 7.3 \\ 
+			140.00 $\pm$ 0.05 & 0.90 $\pm$ 0.05 & 0.0064 $\pm$ 0.0003 & 82.4 $\pm$ 7.4\\ 
+			120.00 $\pm$ 0.05 & 0.80 $\pm$ 0.05 & 0.0066 $\pm$ 0.0004 &  79.5 $\pm$ 7.5\\ 
+			100.00 $\pm$ 0.05 & 0.70 $\pm$ 0.05 & 0.0069 $\pm$ 0.0004 & 75.7 $\pm$ 7.6\\
+			80.00 $\pm$ 0.05  & 0.60 $\pm$ 0.05 &  0.0074 $\pm$ 0.0006 & 70.6 $\pm$ 7.7 \\ 
+			60.00 $\pm$ 0.05 & 0.50 $\pm$ 0.05 &  0.0083 $\pm$ 0.0008 & 63.6 $\pm$ 7.7 \\
+			40.00 $\pm$ 0.05 & 0.40 $\pm$ 0.05 &  0.0099 $\pm$ 0.0012 & 53.00 $\pm$ 7.6  \\ \hline
+			
+		\end{tabular}
+		\caption{Ángulos y Distancias medidas para el pelo \textit{2}.}
+		\label{tab:angulos_distancias 2.}
+		\rule{100mm}{0.1mm}
+	\end{table}
 	
-	
-		
+	\begin{multicols}{2}
+			
 	\section{Análisis}
-
+	En las figuras \ref{Grafico pelo 1} y \ref{Grafico pelo 2} se grafican los datos obtenidos para el grosor del pelo $D$ en comparación al ángulo de desviación hacia el primer mínimo de intensidad visible en el patrón de difracción $\theta$. Además, se grafica la aproximación lineal para cada caso, representada por la línea punteada. De ambas figuras resulta notorio que las variables $D$ y $\theta$ guardan una relación \emph{inversamente proporcional}. Esta correspondencia esta en concordancia con el resultado esperado. Efectivamente, en la ecuación \ref{minimo de intensidad para n=1}; dado que $n$ y $\lambda$ son constantes, se verifica la relación inversamente proporcional que guardan las variables.\\
+	
+	Por su parte, notemos que la variación del grosor, tanto para el pelo \textit{1} como \textit{2}, se ve restringida en el intervalo 70-100 [$\mu$m]. Por lo tanto, teniendo en cuenta que los valores oscilan en un intervalo reducido; y por simplicidad, se usará el valor promedio de los datos obtenidos en cada caso. Esto es, $D_1 = 89.01 [\mu m]$ y $D_2 = 77.45 [\mu m]$ para el pelo \textit{1} y \textit{2}, respectivamente.\\
+	
+	Finalmente, calculando el error asociada a la estimación con la ecuación \ref{errores}, obtenemos los valores:
+	\begin{align}
+	D_1 &= 89.01 \pm 3.04 [\mu m]. \\
+	D_2 &= 77.45 \pm 2.36 [\mu m].
+	\end{align}
+ \begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.4]{Pelo_1.pdf}
+		\caption{Gráfico del grosor del pelo \textit{1} en función del ángulo de desviación del láser. }
+		\label{Grafico pelo 1}
+		\rule{80mm}{0.1mm}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.4]{Pelo_2.pdf}
+		\caption{Gráfico del grosor del pelo \textit{2} en función del ángulo de desviación del láser. }
+		\label{Grafico pelo 2}
+		\rule{80mm}{0.1mm}
+	\end{figure}	
 	
 	
 	
