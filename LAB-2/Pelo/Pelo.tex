@@ -32,7 +32,7 @@
 \pagestyle{fancy} 
 \fancyhf{}   
 \rhead{Gabriel Hernández}                       %Create right header text
-\chead{Medición de la capacidad de un DVD}  
+\chead{Medición del grosor de un pelo}  
 \lhead{Laboratorio 2}                        %Create left header text
                    %Create center header text
 
@@ -64,8 +64,11 @@
 
       %ESTE ABSTRACT ES PARA EL RESUMEN PROPIAMENTE DICHO Y PARA LAS PALABRAS CLAVES (KEYWORDS) ,NOTA:el comando \par sirve para iniciar el nuevo parrafo con sangría.
 	\begin{abstract}
+	A partir de conceptos fundamentales en física óptica, diseñamos un motaje experimental para estimar el grosor de dos pelos humanos de la misma persona. El experimento se basó en las mediciones de las distancias desde el objeto de estudio hacia la pantalla de observación y  el espaciado entre el haz de luz original y el primer mínimo de intensidad. Finalmente se analizaron los datos obtenidos  para la posterior estimación  del grosor de cada pelo.\\
+	
+	Los valores obtenidos indicaron un grosor de  $89.01 \pm 3.04 [\mu m]$ para el primer pelo y uno de $77.45 \pm 2.36 [\mu m]$ para el segundo. Aunque se observaron pequeñas diferencias en la medida, ambos resultados se encuntran en un rango similar de valores, por tanto validamos el proceso experimental y el tratamiento de los datos llevado a cabo en este informe.
 
-		\textbf{Palabras Claves ---}  DVD, Láser, Patrón de Difracción, Óptica.
+		\textbf{Palabras Claves ---}  Pelo, Láser, Patrón de Difracción, Óptica.
 	\end{abstract}
 	
 	\begin{center}
@@ -78,9 +81,12 @@
 		
 		 Cuando un haz de luz incide sobre un obstáculo estrecho, como un cabello, la luz se difracta al rodear sus bordes, creando un patrón característico de franjas claras y oscuras en una pantalla ubicada detrás del objeto, fenómeno conocido como el principio de Babinet \cite{babinet}. Este patrón es resultado de la interferencia de las ondas de luz que se propagan desde los bordes del objeto, formando una serie de máximos y mínimos de intensidad. \\
 		
-		En este laboratorio, emplearemos herramientas matemáticas y conceptos de física óptica para estimar el grosor de dos pelos humanos diferentes. Para ello, tendremos en cuenta que el grosor del pelo humano varía entre 17 [$\mu$m] y 181 [$\mu$m] \cite{wikiPELO}. 
+		En este laboratorio, emplearemos herramientas matemáticas y conceptos de física óptica para estimar el grosor de dos pelos humanos de la misma persona.  De esta forma, podremos comparar los resultados obtenidos, teniendo en cuenta que el grosor del pelo humano varía entre 17 [$\mu$m] y 181 [$\mu$m] \cite{wikiPELO}. 
 			
 		\section{Marco Teórico}
+		\subsection*{Principio de Babinet}
+		El principio de Babinet establece que una abertura y un obstáculo, de la misma forma geométrica y las mismas dimensiones e igualmente iluminados, producen el mismo patrón de difracción.  Los fenómenos de difracción para objetos de la misma forma o tamaño, como un pelo y una rendija, son de la misma forma alrededor de las imágenes centrales \cite{babinet}. \\
+		
 		\subsection*{Interferencia} 
 		Se habla de interferencia cuando dos o más ondas coinciden en la misma región del espacio en el mismo instante de tiempo. Luego, la función de onda total es la suma de las funciones individuales (Principio de SUperposición), no así la intensidad de total de la onda. En el caso particular de dos ondas, la intensidad de la onda resultante queda expresada por la \emph{ecuación de interferencia}:
 		\begin{equation}
@@ -106,13 +112,22 @@
 		\subsection*{Trigonometría}
 		Etimológicamente la palabra trigonometría significa \textit{medida de los triángulos}. En efecto, es la ciencia que estudia las relaciones que ligan los lados de un triángulo y aplican esas realciones al cálculo de los elementos desconocidos. En particular, la trigonometría se basa en el conocimiento de los ángulos de un triángulo que establecen conexiones llamadas \textit{relaciones trigonométricas}. Las principales son el \emph{seno, coseno} y la \emph{tangente} \cite{trigonometria}.
 		\section{Procedimiento Experimental y Resultados}
-		Para este experimento usamos un láser verde con longitud de onda 530[nm] y una huincha para la medición de las distancias. Además, elaboramos un soporte manualmente para fijar el pelo. De esta forma, apuntamos el láser hacia el pelo generando un patrón de difracción visible en la pantalla de observación (pared).\\
+		Para este experimento usamos un láser verde con longitud de onda de 530[nm] y una huincha para la medición de las distancias. Además, elaboramos un soporte manualmente para fijar el pelo. De esta forma, apuntamos el láser hacia el pelo generando un patrón de difracción visible en la pantalla de observación (pared) \ref{Grafico medición}.\\
 		
 		Experimentalmente medimos la distancia entre la red de difracción (pelo) y la pantalla de observación ($d$) además del  espaciado entre el has de luz original (orden $n = 0$) y el primer mínimo de interferencia visible en la pantalla (orden $n=1$). Finalmente calculamos el ángulo de apertura ($\theta$) para la posterior estimación del grosor del pelo ($D$).\\
 		El valor del ángulo $\theta$ fue calculado mediante la siguiente expresión:
 		\begin{equation} 
 		\tan(\theta) = \frac{L}{d} \Longrightarrow \theta = \arctan(\frac{L}{d}).
 		\end{equation}
+		
+		\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.1]{Pelo.jpeg}
+		\caption{Gráfico del montaje experimental para la medición del grosor del pelo }
+		\label{Grafico medición}
+		\rule{80mm}{0.1mm}
+	\end{figure}
+	
 		Esta relación se puede apreciar mejor en la figura \ref{Red de difracción} donde se explicita la relación entre las distancias y el ángulo en cuestión.\\
 		A continuación, utilizamos el concepto de patrón de difracción para estimar el grosor del pelo. Para ello, notemos que $L$ representa la distancia hasta el primer mínimo de interferecia. Esto ímplica que trabajamos para n=1 en la expresión \ref{minimos de intensidad}, es decir:
 		\begin{equation} \label{minimo de intensidad para n=1}
@@ -125,13 +140,16 @@
 		\begin{equation}\label{errores}
 		\sigma^2 = \sigma^2_x \left( \frac{\partial f}{\partial x} \right)^2 + \sigma^2_y \left( \frac{\partial f}{\partial y} \right)^2 + \sigma^2_z \left( \frac{\partial f}{\partial z} \right)^2+...
 		\end{equation}
+	
+		
+		
 	\end{multicols}
 	
 	\begin{table}[H]
 		\centering
 		\begin{tabular}{|c|c|c|c|}
 			\hline
-			$d$ (cm) & $L$ (cm) & $\theta$ (rad) )&  $D$($\mu$m) \\ \hline
+			$d$ (cm) & $L$ (cm) & $\theta$ (rad) &  $D$($\mu$m) \\ \hline
 			220.00 $\pm$ 0.05  & 1.20 $\pm$ 0.05 &  0.0054 $\pm$ 0.0002  & 97.1 $\pm$ 7.9 \\
 			200.00 $\pm$ 0.05  & 1.10 $\pm$ 0.05 &  0.0055 $\pm$ 0.0002  & 96.3 $\pm$ 8.1 \\
 			180.00 $\pm$ 0.05  & 1.00 $\pm$ 0.05 &  0.0055 $\pm$ 0.0002 & 95.4 $\pm$ 8.2\\
@@ -153,7 +171,7 @@
 		\centering
 		\begin{tabular}{|c|c|c|c|}
 			\hline
-			$d$ (cm) & $L$ (cm) & $\theta$ (rad) )&  $D$($\mu$m) \\ \hline
+			$d$ (cm) & $L$ (cm) & $\theta$ (rad) &  $D$($\mu$m) \\ \hline
 			220.00 $\pm$ 0.05  & 1.30 $\pm$ 0.05 &  0.0059 $\pm$ 0.0002  & 89.6 $\pm$ 7.2\\
 			200.00 $\pm$ 0.05  & 1.20 $\pm$ 0.05 &  0.0059 $\pm$ 0.0002  & 88.3 $\pm$ 7.2 \\
 			180.00 $\pm$ 0.05  & 1.10 $\pm$ 0.05 &  0.0061 $\pm$ 0.0002 & 86.7 $\pm$ 7.2\\
@@ -176,7 +194,7 @@
 	\section{Análisis}
 	En las figuras \ref{Grafico pelo 1} y \ref{Grafico pelo 2} se grafican los datos obtenidos para el grosor del pelo $D$ en comparación al ángulo de desviación hacia el primer mínimo de intensidad visible en el patrón de difracción $\theta$. Además, se grafica la aproximación lineal para cada caso, representada por la línea punteada. De ambas figuras resulta notorio que las variables $D$ y $\theta$ guardan una relación \emph{inversamente proporcional}. Esta correspondencia esta en concordancia con el resultado esperado. Efectivamente, en la ecuación \ref{minimo de intensidad para n=1}; dado que $n$ y $\lambda$ son constantes, se verifica la relación inversamente proporcional que guardan las variables.\\
 	
-	Por su parte, notemos que la variación del grosor, tanto para el pelo \textit{1} como \textit{2}, se ve restringida en el intervalo 70-100 [$\mu$m]. Por lo tanto, teniendo en cuenta que los valores oscilan en un intervalo reducido; y por simplicidad, se usará el valor promedio de los datos obtenidos en cada caso. Esto es, $D_1 = 89.01 [\mu m]$ y $D_2 = 77.45 [\mu m]$ para el pelo \textit{1} y \textit{2}, respectivamente.\\
+	Por su parte, notemos que la variación del grosor, tanto para el pelo \textit{1} como \textit{2}, se ve restringida en el mismo intervalo 70-100 [$\mu$m]. De esta forma, teniendo en cuenta que los valores oscilan en un intervalo reducido; y por simplicidad, se usará el valor promedio de los datos obtenidos en cada caso. Esto es, $D_1 = 89.01 [\mu m]$ y $D_2 = 77.45 [\mu m]$ para el pelo \textit{1} y \textit{2}, respectivamente.\\
 	
 	Finalmente, calculando el error asociada a la estimación con la ecuación \ref{errores}, obtenemos los valores:
 	\begin{align}
@@ -201,9 +219,8 @@
 	
 	
 	
-
-	
 	\section{Conlusión}
+	En este laboratorio medimos el grosor de dos pelos de la misma persona usando conceptos de física óptica como la difracción, el patrón de difracción y la expresión para los mínimos de intensidad. A través del análisis de los resultados obtuvimos un grosor para el primer pelo de  $89.01 \pm 3.04 [\mu m]$ y para el segundo de $77.45 \pm 2.36 [\mu m]$. Pese a las ligeras diferencias en la medida, ambos valores se encuntra en un rango similar, lo cual sugiere una consistencia en los datos, pues se trata del mismo pelo. Esto nos permite validar tanto la precisión del proceso experimental y el tratamiento de los datos, como también la efectividad de la técnica de difracción para la medición de objetos pequeños.
 
 
 

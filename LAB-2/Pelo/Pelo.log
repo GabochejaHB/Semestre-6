@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.8.31)  3 OCT 2024 21:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.8.31)  5 OCT 2024 12:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -418,8 +418,8 @@ File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 \l__pdf_internal_box=\box99
 )
 (./Pelo.aux
-LaTeX Info: Redefining \. on input line 30.
-LaTeX Info: Redefining \% on input line 30.
+LaTeX Info: Redefining \. on input line 29.
+LaTeX Info: Redefining \% on input line 29.
 )
 \openout1 = `Pelo.aux'.
 
@@ -547,61 +547,78 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 56.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
  []
 
-<../DVD/Difracción.jpeg, id=32, 987.69pt x 779.91376pt>
-File: ../DVD/Difracción.jpeg Graphic file (type jpg)
-<use ../DVD/Difracción.jpeg>
-Package pdftex.def Info: ../DVD/Difracción.jpeg  used on input line 100.
-(pdftex.def)             Requested size: 197.5345pt x 155.97998pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+
+ []
+
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
  <../Altura-Campanil/IMG/logo_udec.png> <../Altura-Campanil/IMG/cfm_logo.png>]
-Underfull \hbox (badness 5274) in paragraph at lines 108--108
+<../DVD/Difracción.jpeg, id=65, 987.69pt x 779.91376pt>
+File: ../DVD/Difracción.jpeg Graphic file (type jpg)
+<use ../DVD/Difracción.jpeg>
+Package pdftex.def Info: ../DVD/Difracción.jpeg  used on input line 106.
+(pdftex.def)             Requested size: 197.5345pt x 155.97998pt.
+
+Underfull \hbox (badness 5274) in paragraph at lines 114--114
 []\T1/cmr/bx/n/14.4 Procedimiento Ex-pe-ri-men-tal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
+
+ []
+
+<Pelo.jpeg, id=68, 1204.5pt x 1606.0pt>
+File: Pelo.jpeg Graphic file (type jpg)
+<use Pelo.jpeg>
+Package pdftex.def Info: Pelo.jpeg  used on input line 125.
+(pdftex.def)             Requested size: 120.45705pt x 160.6094pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+
+ []
+
+[2 <../DVD/Difracción.jpeg> <./pelo.jpeg>]
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--123
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
 
  []
 
-[2 <../DVD/Difracción.jpeg>]
-Underfull \hbox (badness 10000) in paragraph at lines 177--178
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 179--180
-
- []
-
-<Pelo_1.pdf, id=90, 462.52798pt x 346.89601pt>
+<Pelo_1.pdf, id=98, 462.52798pt x 346.89601pt>
 File: Pelo_1.pdf Graphic file (type pdf)
 <use Pelo_1.pdf>
-Package pdftex.def Info: Pelo_1.pdf  used on input line 188.
+Package pdftex.def Info: Pelo_1.pdf  used on input line 206.
 (pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
-<Pelo_2.pdf, id=91, 462.52798pt x 346.89601pt>
+<Pelo_2.pdf, id=99, 462.52798pt x 346.89601pt>
 File: Pelo_2.pdf Graphic file (type pdf)
 <use Pelo_2.pdf>
-Package pdftex.def Info: Pelo_2.pdf  used on input line 196.
+Package pdftex.def Info: Pelo_2.pdf  used on input line 214.
 (pdftex.def)             Requested size: 185.0079pt x 138.75594pt.
-(./Pelo.bbl
+[3 <./Pelo_1.pdf>] (./Pelo.bbl
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 5
 .
- (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 Underfull \hbox (badness 10000) in paragraph at lines 4--6
@@ -624,23 +641,23 @@ Underfull \hbox (badness 5878) in paragraph at lines 28--31
 []\T1/cmr/m/n/10 ThoughtCo.  \T1/cmr/m/it/10 The Vi-si-ble Spec-trum: Wa-ve-
  []
 
-) [3 <./Pelo_1.pdf> <./Pelo_2.pdf>] 
+) 
 AED: lastpage setting LastPage
-(./Pelo.aux
-LaTeX Info: Redefining \. on input line 30.
-LaTeX Info: Redefining \% on input line 30.
+[4 <./Pelo_2.pdf>] (./Pelo.aux
+LaTeX Info: Redefining \. on input line 29.
+LaTeX Info: Redefining \% on input line 29.
 )
 Package rerunfilecheck Info: File `Pelo.out' has not changed.
 (rerunfilecheck)             Checksum: 4BF291B00636734F537277E8AC0AF9E8;644.
  ) 
 Here is how much of TeX's memory you used:
- 12449 strings out of 480144
- 191086 string characters out of 5893198
- 524198 words of memory out of 5000000
- 30194 multiletter control sequences out of 15000+600000
- 481989 words of font info for 63 fonts, out of 8000000 for 9000
+ 12469 strings out of 480144
+ 191314 string characters out of 5893198
+ 525287 words of memory out of 5000000
+ 30207 multiletter control sequences out of 15000+600000
+ 483534 words of font info for 69 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
- 60i,11n,63p,766b,524s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,12n,63p,766b,524s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/ghernandez/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt100
 0.600pk> </home/ghernandez/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/e
 cbx1200.600pk> </home/ghernandez/.texlive2021/texmf-var/fonts/pk/ljfour/jknappe
@@ -653,14 +670,16 @@ mf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pf
-b>
-Output written on Pelo.pdf (3 pages, 227697 bytes).
+c/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on Pelo.pdf (4 pages, 424335 bytes).
 PDF statistics:
- 496 PDF objects out of 1000 (max. 8388607)
- 173 compressed objects within 2 object streams
- 32 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 542 PDF objects out of 1000 (max. 8388607)
+ 190 compressed objects within 2 object streams
+ 35 named destinations out of 1000 (max. 500000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
