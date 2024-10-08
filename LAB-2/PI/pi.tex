@@ -1,0 +1,128 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{multicol}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{hyperref}
+\definecolor{pinegreen}{rgb}{0.36, 0.54, 0.66}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=pinegreen,      
+    urlcolor=red,
+    }
+\addto{\captionsspanish}{\renewcommand{\abstractname}{Abstract}}
+\newcommand{\celda}[1]{
+	\begin{minipage}{2cm}
+		\vspace{2mm}
+		#1
+		\vspace{2mm}
+	\end{minipage}
+}
+\definecolor{pinegreen}{rgb}{0.36, 0.54, 0.66}
+\usepackage[left=2.00cm, right=2.00cm, top=2.00cm, bottom=2.00cm]{geometry}
+%-----------------------
+\usepackage{fancyhdr}
+\usepackage{lastpage}   
+\pagestyle{fancy} 
+\fancyhf{}   
+\rhead{Gabriel Hernández}                       %Create right header text
+\chead{Estimación experimental de $\pi$}  
+\lhead{Laboratorio 2}                        %Create left header text
+                   %Create center header text
+
+\rfoot{Page \thepage \hspace{1pt} of \pageref{LastPage}}    %Create right footer text
+\renewcommand{\headrulewidth}{0.2pt}      %Set header line thickness to 0 pt [default=1pt]
+\renewcommand{\footrulewidth}{0pt}      %Set footer line thickness to 0 pt [default =0pt]
+%-----------------------
+\author{Gabriel Hernandez Bello}
+\begin{document}
+	
+	\begin{figure}[H]
+		\raggedright
+		\includegraphics[scale=0.2]{../Altura-Campanil/IMG/logo_udec.png} \hfill \includegraphics[scale=0.5]{../Altura-Campanil/IMG/cfm_logo.png}
+	\end{figure}
+
+	\vspace{6mm}
+	%ESTE CENTER ES EXCLUSIVO PARA EL TITULO DEL PAPER, AUTOR Y UNIVER.
+	\begin{center}
+		{\Large \textbf{Estimación experimental de \textbf{$\pi$}}}\\
+		\vspace{2mm}
+		{\large Gabriel Hernández Bello$^{1}$}\\
+		\vspace{6.5mm}
+		$^1$\textit{Universidad de Concepción, Facultad de Ciencias Físicas y Matemáticas, Ciencias Físicas. }\\
+	\end{center}
+
+	\begin{center}
+		\textcolor{pinegreen}{\rule{150mm}{0.8mm}}
+	\end{center}
+
+      %ESTE ABSTRACT ES PARA EL RESUMEN PROPIAMENTE DICHO Y PARA LAS PALABRAS CLAVES (KEYWORDS) ,NOTA:el comando \par sirve para iniciar el nuevo parrafo con sangría.
+	\begin{abstract}
+
+		\textbf{Palabras Claves ---}  DVD, Láser, Patrón de Difracción, Óptica.
+	\end{abstract}
+	
+	\begin{center}
+		\textcolor{pinegreen}{\rule{150mm}{0.8mm}}
+	\end{center}
+	
+	\begin{multicols}{2}
+		\section{Introducción}
+			El número $\pi$ es una de las constantes matemáticas por autonomasia. Su omnipresencia en diferentes ámbitos relacionados con la física, las matemáticas y la ingeniería lo hacen reconocible hasta para aquellos que viven alejados de las ramas científicas.\\
+			
+			El emblemático número irracional $\pi$ se define como la razón entre el perímetro de una circunsferencia y su diámetro. Toda investigación que incluya alguna variable relacionada con círculos, circunferencias o similares llevará implícito su cálculo, desde las elipses de las trayectorias espaciales hasta la fabricación de ruedas o balones de fútbol. A partir de ahí, su utilidad es casi tan dilatada como su número de decimales \cite{discovery}.\\
+			
+			En el presente laboratorio, nos concentraremos en estimar experimentalmente el valor del número $\pi$ a través de dos experimentos simples.
+		\section{Marco Teórico}
+		\subsection*{Definición de $\pi$}
+		Sea una circunsferencia con perímetro $P$ y diámetro $D$. Se define el número $\pi$ como la razón entre estas magnitudes, tal que:
+		\begin{equation}\label{def de pi}
+		\pi = \frac{P}{D}
+		\end{equation}
+	
+		\subsection*{Integrales en la antiguedad}
+		Arquímedes de Siracusa (287-212 a.C.) utilizó el método exhaustivo de Euxodo de Cnido. inscribiendo y 	
+circunscribiendo polígonos regulares en una circunferencia para calcular áreas y volúmenes. Calculó el volumen y la superficie de una esfera y de un cono y la superficie de una elipse y una parábola y expuso un método para calcular los volúmenes de revolución de segmentos de elipsoides, paraboloides e hiperboloides cortados por un
+plano perpendicular al eje principal \cite{integrales}. \\
+
+		De esta forma se calculaban las integrales, relacionadas a áreas y volúmenes, en la antiguedad. Esta noción es de suma importancia para el laboratorio, pues en ella esta basada una de los experimentos propuestos para la estimación de $\pi$.
+		\subsection*{  }
+		Consideremos un material con densidad de masa $\rho$ constante, de forma que $m = \rho V$; donde $m$ representa la masa del material y  $V$ su volumen. Ahora, recortemos una circunsferencia de radio $a$ y un cuadrado de lado $a$. Así, el área de la circunsferencia será $A = \pi a^2$ y para el cuadrado tendremos un área de $B = a^2$. Luego, vemos que:
+		\begin{align*}
+		\frac{\rho_A}{\rho_B} &= \frac{\frac{m}{V_A}}{\frac{m}{V_b}}, \\
+		 \frac{V_A}{V_B} &= \frac{A \cdot a}{B \cdot a}.
+		\end{align*}
+		Donde usamos la relación $V = a \cdot A$, para una longitud $a$ y un volumen $A$. \\
+		
+		Finalmente, notemos que podemos simplificar las longitudes $a$ y reemlazando el valor del área $A$ y $B$ obtenemos:
+		\begin{equation}\label{Relación de las áreas}
+		\frac{A}{B} = \frac{\pi a^2}{a^2} = pi 
+		\end{equation}
+		\section{Procedimiento Experimental y Resultados}
+		
+		
+	
+	
+	
+		
+		
+	
+
+	
+\section{Conlusión}
+
+
+
+
+
+	\bibliographystyle{unsrt}
+	\bibliography{referencias}
+	
+	\end{multicols}
+\end{document}
