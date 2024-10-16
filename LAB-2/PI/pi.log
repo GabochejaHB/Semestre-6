@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.8.31)  8 OCT 2024 20:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.8.31)  16 OCT 2024 18:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -418,8 +418,8 @@ File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 \l__pdf_internal_box=\box99
 )
 (./pi.aux
-LaTeX Info: Redefining \. on input line 30.
-LaTeX Info: Redefining \% on input line 30.
+LaTeX Info: Redefining \. on input line 28.
+LaTeX Info: Redefining \% on input line 28.
 )
 \openout1 = `pi.aux'.
 
@@ -524,13 +524,13 @@ LaTeX Info: Redefining \nameref on input line 44.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 44.
-<../Altura-Campanil/IMG/logo_udec.png, id=20, 649.42625pt x 255.95625pt>
+<../Altura-Campanil/IMG/logo_udec.png, id=24, 649.42625pt x 255.95625pt>
 File: ../Altura-Campanil/IMG/logo_udec.png Graphic file (type png)
 <use ../Altura-Campanil/IMG/logo_udec.png>
 Package pdftex.def Info: ../Altura-Campanil/IMG/logo_udec.png  used on input li
 ne 48.
 (pdftex.def)             Requested size: 129.88295pt x 51.19034pt.
-<../Altura-Campanil/IMG/cfm_logo.png, id=22, 341.275pt x 80.3pt>
+<../Altura-Campanil/IMG/cfm_logo.png, id=26, 341.275pt x 80.3pt>
 File: ../Altura-Campanil/IMG/cfm_logo.png Graphic file (type png)
 <use ../Altura-Campanil/IMG/cfm_logo.png>
 Package pdftex.def Info: ../Altura-Campanil/IMG/cfm_logo.png  used on input lin
@@ -547,31 +547,81 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 54.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
  []
 
 
-LaTeX Warning: Citation `integrales' on page 1 undefined on input line 92.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--93
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--102
+Underfull \hbox (badness 10000) in paragraph at lines 93--96
 
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 105--107
+
+ []
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+ <../Altura-Campanil/IMG/logo_udec.png> <../Altura-Campanil/IMG/cfm_logo.png>]
 Underfull \hbox (badness 5274) in paragraph at lines 107--107
 []\T1/cmr/bx/n/14.4 Procedimiento Ex-pe-ri-men-tal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
+
+ []
+
+<circulo_pi.jpeg, id=62, 722.7pt x 1284.8pt>
+File: circulo_pi.jpeg Graphic file (type jpg)
+<use circulo_pi.jpeg>
+Package pdftex.def Info: circulo_pi.jpeg  used on input line 112.
+(pdftex.def)             Requested size: 72.27423pt x 128.48752pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
+
+ []
+
+[2 <./circulo_pi.jpeg>]
+<pi_metodo1.pdf, id=86, 462.52798pt x 346.89601pt>
+File: pi_metodo1.pdf Graphic file (type pdf)
+<use pi_metodo1.pdf>
+Package pdftex.def Info: pi_metodo1.pdf  used on input line 172.
+(pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
+<pi_metodo2.pdf, id=87, 462.52798pt x 346.89601pt>
+File: pi_metodo2.pdf Graphic file (type pdf)
+<use pi_metodo2.pdf>
+Package pdftex.def Info: pi_metodo2.pdf  used on input line 180.
+(pdftex.def)             Requested size: 231.26341pt x 173.44757pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
+
  []
 
 (./pi.bbl
@@ -592,7 +642,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--8
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 4--8
-\T1/cmr/m/n/10 tio-nal geo-graphic es-pa-Ña. [][]$\T1/cmtt/m/n/10 https : / / w
+\T1/cmr/m/n/10 tio-nal geo-graphic es-pa-ña. [][]$\T1/cmtt/m/n/10 https : / / w
 ww .
  []
 
@@ -606,52 +656,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--8
 \T1/cmtt/m/n/10 el-[]numero-[]pi-[]una-[]cifra-[]para-[]casi-[]todo _
  []
 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-
- <../Altura-Campanil/IMG/logo_udec.png> <../Altura-Campanil/IMG/cfm_logo.png>])
-
-
-AED: lastpage setting LastPage
-[2] (./pi.aux
-LaTeX Info: Redefining \. on input line 30.
-LaTeX Info: Redefining \% on input line 30.
 )
+Overfull \vbox (6.25934pt too high) has occurred while \output is active []
 
-LaTeX Warning: There were undefined references.
 
+[3 <./pi_metodo1.pdf> <./pi_metodo2.pdf>] 
+AED: lastpage setting LastPage
+(./pi.aux
+LaTeX Info: Redefining \. on input line 28.
+LaTeX Info: Redefining \% on input line 28.
+)
 Package rerunfilecheck Info: File `pi.out' has not changed.
-(rerunfilecheck)             Checksum: D8C1E0D6AECEDFA173256D050A3E2BA1;558.
+(rerunfilecheck)             Checksum: 4BF291B00636734F537277E8AC0AF9E8;644.
  ) 
 Here is how much of TeX's memory you used:
- 12392 strings out of 480144
- 190173 string characters out of 5893198
- 522438 words of memory out of 5000000
- 30160 multiletter control sequences out of 15000+600000
- 484310 words of font info for 70 fonts, out of 8000000 for 9000
+ 12456 strings out of 480144
+ 191063 string characters out of 5893198
+ 523164 words of memory out of 5000000
+ 30201 multiletter control sequences out of 15000+600000
+ 485079 words of font info for 75 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
- 60i,11n,63p,494b,655s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,11n,63p,698b,516s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/ghernandez/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt100
 0.600pk> </home/ghernandez/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/e
-cbx1000.600pk> </home/ghernandez/.texlive2021/texmf-var/fonts/pk/ljfour/jknappe
-n/ec/ecbx1200.600pk> </home/ghernandez/.texlive2021/texmf-var/fonts/pk/ljfour/j
-knappen/ec/ecrm0900.600pk> </home/ghernandez/.texlive2021/texmf-var/fonts/pk/lj
-four/jknappen/ec/ecbx0900.600pk> </home/ghernandez/.texlive2021/texmf-var/fonts
-/pk/ljfour/jknappen/ec/ecti1000.600pk> </home/ghernandez/.texlive2021/texmf-var
-/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/ghernandez/.texlive2021/tex
-mf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/ghernandez/.texlive20
-21/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
->
-Output written on pi.pdf (2 pages, 158238 bytes).
+cbx1200.600pk> </home/ghernandez/.texlive2021/texmf-var/fonts/pk/ljfour/jknappe
+n/ec/ecrm0900.600pk> </home/ghernandez/.texlive2021/texmf-var/fonts/pk/ljfour/j
+knappen/ec/ecbx0900.600pk> </home/ghernandez/.texlive2021/texmf-var/fonts/pk/lj
+four/jknappen/ec/ecti1000.600pk> </home/ghernandez/.texlive2021/texmf-var/fonts
+/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/ghernandez/.texlive2021/texmf-var
+/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/ghernandez/.texlive2021/tex
+mf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on pi.pdf (3 pages, 321850 bytes).
 PDF statistics:
- 339 PDF objects out of 1000 (max. 8388607)
- 107 compressed objects within 2 object streams
- 14 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 541 PDF objects out of 1000 (max. 8388607)
+ 175 compressed objects within 2 object streams
+ 30 named destinations out of 1000 (max. 500000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -3,7 +3,21 @@
 \bibitem{discovery}
 Noelia Freire.
 \newblock \textit{El número Pi, una cifra omnipresente en las matemáticas}.
-  national geographic espaÑa.
+  national geographic españa.
   \url{https://www.nationalgeographic.com.es/ciencia/el-numero-pi-una-cifra-para-casi-todo_10210}.
+
+\bibitem{wikipi}
+Colaboradores de~Wikipedia.
+\newblock \textit{Número $\pi$}. wikipedia.
+  \url{https://es.wikipedia.org/wiki/N%C3%BAmero_%CF%80}.
+
+\bibitem{integral}
+{\em La historia como herramienta didáctica: El concepto de integral}.
+\newblock Laura Fernández Fernández.
+
+\bibitem{error}
+Department of~Physics and Astronomy.
+\newblock {\em \textit{Measurement and Uncertainty Analysis Guide}}.
+\newblock University of North Carolina.
 
 \end{thebibliography}
